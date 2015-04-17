@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+body {
+  background: #dedede;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.logo {
+  margin: 10px auto; }
+  .logo img {
+    margin: auto;
+    width: 100%;
+    height: auto; }
+
+.content {
+  margin: 10px; }
+
+.button {
+  text-align: center; }
+  .button.primary {
+    display: block;
+    background: #23d88d;
+    border: 1px solid #1cac70;
+    color: #ffffff;
+    margin: 5px 0; }
+  .button.medium {
+    padding: 10px 20px; }
+  .button.large {
+    width: 100%; }
+
+.infoProfile {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .infoProfile .profilePic {
+    min-width: 160px;
+    height: 160px;
+    margin: auto;
+    position: relative; }
+    .infoProfile .profilePic img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #ffffff; }
+    .infoProfile .profilePic .editPic {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: none;
+      background: #23d88d;
+      padding: 5px 15px;
+      display: block; }
+  .infoProfile .dataUser {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */
