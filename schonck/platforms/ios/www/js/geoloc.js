@@ -1,9 +1,9 @@
 // document.addEventListener("deviceready", onDeviceReady, false);
-
+document.getElementById("editLocation").onclick = function(){ addLocation(); };
 
   // device APIs are available
   function addLocation() {      
-      
+
       initialize();
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
@@ -28,9 +28,6 @@ function errorFunction(){
 
   function initialize() {
     geocoder = new google.maps.Geocoder();
-
-
-
   }
 
   function codeLatLng(lat, lng) {
@@ -55,10 +52,9 @@ function errorFunction(){
                 }
             }
         }
-        //city data
-        $("#myPosition").append(city.long_name);
-
-
+        
+        document.getElementById("myPosition").innerHTML = city.long_name;
+        
         } else {
           alert("No results found");
         }
