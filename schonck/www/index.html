@@ -35,9 +35,15 @@
         <h2 class="title">Mon Compte</h2>
         <div class="infoProfile">
             <div class="profilePic">
-                <a href="#" class="editPic">Edit</a>
-                <img src="#" alt="profilePic"/>
+                <a href="#" onclick="capturePhoto();" class="editPic">Capture Photo</a>
+                <a href="#" class="editPic" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</a>
+                
+                <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+                <img src="#" id="largeImage" alt="profilePic"/>
             </div>
+            
+
+
             <div class="dataUser">
                 <ul class="listUserInfo">
                     <li>
@@ -57,5 +63,6 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
         <script type="text/javascript" src="js/geoloc.js"></script>
+        <script type="text/javascript" src="js/camera.js"></script>
     </body>
 </html>

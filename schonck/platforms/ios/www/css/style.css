@@ -60,7 +60,8 @@ body {
           justify-content: flex-start;
   margin-bottom: 20px; }
   .infoProfile .profilePic {
-    min-width: 160px;
+    max-width: 160px;
+    width: 160px;
     height: 160px;
     margin: auto;
     position: relative; }

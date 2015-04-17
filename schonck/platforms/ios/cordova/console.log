@@ -246,3 +246,17 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-04-17 15:56:22.608 schonck[5036:137512] Resetting plugins due to page load.
 2015-04-17 15:56:22.681 schonck[5036:137512] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/7671C307-6ECB-4471-9E68-A4C5D1D55161/schonck.app/www/index.html
+2015-04-17 16:13:20.710 schonck[5313:143944] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Data/Application/1981FF48-C2A7-4826-BBD5-B113BB6AB688/Library/Cookies/Cookies.binarycookies
+2015-04-17 16:13:20.806 schonck[5313:143944] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-17 16:13:20.806 schonck[5313:143944] Multi-tasking -> Device: YES, App: YES
+2015-04-17 16:13:20.807 schonck[5313:143944] Unlimited access to network resources
+2015-04-17 16:13:20.809 schonck[5313:143944] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-17 16:13:20.897 schonck[5313:143944] Resetting plugins due to page load.
+2015-04-17 16:13:20.970 schonck[5313:143944] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/46923EBB-72EB-4688-BAF9-CFF0725A5543/schonck.app/www/index.html
