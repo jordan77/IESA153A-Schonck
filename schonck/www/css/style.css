@@ -8,15 +8,8 @@ a {
 
 body {
   background: #dedede;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  flex-direction: column; }
 
 .logo {
   margin: 10px auto; }
@@ -36,20 +29,23 @@ body {
     border: 1px solid #1cac70;
     color: #ffffff;
     margin: 5px 0; }
+  .button.secondary {
+    background: #e6790f;
+    border: 1px solid #b6600c;
+    color: #ffffff;
+    margin: 5px 0; }
+  .button.small {
+    display: inline-block;
+    padding: 5px; }
   .button.medium {
     padding: 10px 20px; }
   .button.large {
     width: 100%; }
 
 .infoProfile {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start; }
+  justify-content: flex-start;
+  margin-bottom: 20px; }
   .infoProfile .profilePic {
     min-width: 160px;
     height: 160px;
@@ -69,6 +65,12 @@ body {
       padding: 5px 15px;
       display: block; }
   .infoProfile .dataUser {
+    flex: 1;
     margin-left: 10px; }
+    .infoProfile .dataUser .listUserInfo {
+      list-style: none;
+      padding: 0; }
+      .infoProfile .dataUser .listUserInfo li p {
+        display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
