@@ -260,3 +260,58 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-04-17 16:13:20.897 schonck[5313:143944] Resetting plugins due to page load.
 2015-04-17 16:13:20.970 schonck[5313:143944] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/46923EBB-72EB-4688-BAF9-CFF0725A5543/schonck.app/www/index.html
+2015-04-17 16:14:33.871 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:33.871 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:35.465 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:35.465 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:36.624 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:36.625 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:39.090 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:14:39.090 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:01.175 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:01.175 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:02.581 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:02.581 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:04.645 schonck[5313:143944] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:15:04.645 schonck[5313:143944] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:27:13.611 schonck[5313:153628] Terminating since there is no system app.
+2015-04-17 16:27:13.613 schonck[5313:153611] Communications error: <OS_xpc_error: <error: 0x35a15f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x35a183c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-04-17 16:43:28.419 schonck[7252:171503] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Data/Application/75EC3465-5158-45D8-AD4B-68667EEC4554/Library/Cookies/Cookies.binarycookies
+2015-04-17 16:43:28.592 schonck[7252:171503] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-17 16:43:28.593 schonck[7252:171503] Multi-tasking -> Device: YES, App: YES
+2015-04-17 16:43:28.615 schonck[7252:171503] Unlimited access to network resources
+2015-04-17 16:43:28.620 schonck[7252:171503] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-17 16:43:28.745 schonck[7252:171503] Resetting plugins due to page load.
+2015-04-17 16:43:28.845 schonck[7252:171503] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/FF1491AE-DA20-4769-9BB2-968A19444CF2/schonck.app/www/index.html
+2015-04-17 16:43:45.915 schonck[7252:171503] locationManager::didFailWithError (null)
+2015-04-17 16:46:13.863 schonck[7252:171503] locationManager::didFailWithError (null)
+2015-04-17 16:46:53.270 schonck[7252:172495] Connection to assetsd was interrupted or assetsd died
+2015-04-17 16:46:53.274 schonck[7252:172544] Terminating since there is no system app.
+2015-04-17 16:47:00.880 schonck[7393:173250] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Data/Application/43C0AF19-15E1-42FE-8CA8-AC01A29931C4/Library/Cookies/Cookies.binarycookies
+2015-04-17 16:47:00.930 schonck[7393:173250] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-17 16:47:00.930 schonck[7393:173250] Multi-tasking -> Device: YES, App: YES
+2015-04-17 16:47:00.931 schonck[7393:173250] Unlimited access to network resources
+2015-04-17 16:47:00.933 schonck[7393:173250] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-17 16:47:01.029 schonck[7393:173250] Resetting plugins due to page load.
+2015-04-17 16:47:01.120 schonck[7393:173250] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/0FE853E6-8CF7-4C12-9DCF-2D574162CDC9/schonck.app/www/index.html
+2015-04-17 16:48:14.854 schonck[7393:173250] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:48:14.855 schonck[7393:173250] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:48:22.939 schonck[7393:173250] CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:48:22.939 schonck[7393:173250] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-17 16:56:56.408 schonck[7393:176721] Terminating since there is no system app.
