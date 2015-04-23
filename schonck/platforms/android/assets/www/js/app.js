@@ -12,7 +12,7 @@
         $scope.profil = $data.selectedItem;
     });
 
-    module.controller('MasterController', function($scope, $data) {
+    module.controller('MasterController', function($scope, $data, $http) {
         $scope.profil = $data.profil;  
         $scope.updateGeoloc = function() {
             if (navigator.geolocation) {
@@ -141,6 +141,14 @@
 
         $scope.onError = function(contactError){
             alert('onError!');
+        }
+
+        $scope.openAjax = function(){
+            $http({method: 'POST', url: "http://juglet-mathieu.fr/schonck/index.json"}).success(function(data){
+                $scope.profil.name = data.data.firstname;
+                $scope.profil.email = data.data.email;
+                $scope.$apply();
+            });
         }
 
     });
