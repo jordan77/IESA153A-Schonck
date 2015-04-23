@@ -111,6 +111,7 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/lib/onsen/stylus/components/util.styl \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
@@ -126,6 +127,8 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactName.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactOrganization.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/contacts.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/styles/app.css \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/styles/onsen-css-components-blue-basic-theme.css \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/styles/onsen-css-components-blue-theme.css \

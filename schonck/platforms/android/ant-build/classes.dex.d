@@ -18,4 +18,14 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$3.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$4.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$2.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$3.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$4.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$5$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$5.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$6$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$6.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$7.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/dexedLibs/classes-9a53bcaee7d29d92737f76c9bfbcd66f.jar \

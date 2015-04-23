@@ -2699,3 +2699,33 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-04-23 11:03:16.677 schonck[45379:1237191] Resetting plugins due to page load.
 2015-04-23 11:03:16.870 schonck[45379:1237191] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/D0CF8A9A-3BE7-4863-9DB7-A82BC723A531/schonck.app/www/index.html
+2015-04-23 16:56:53.420 schonck[56462:1429430] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 16:56:53.421 schonck[56462:1429430] Multi-tasking -> Device: YES, App: YES
+2015-04-23 16:56:53.423 schonck[56462:1429430] Unlimited access to network resources
+2015-04-23 16:56:53.425 schonck[56462:1429430] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 16:56:53.546 schonck[56462:1429430] [CDVTimer][splashscreen] 57.664990ms
+2015-04-23 16:56:53.546 schonck[56462:1429430] [CDVTimer][TotalPluginStartup] 57.863057ms
+2015-04-23 16:56:53.590 schonck[56462:1429430] Resetting plugins due to page load.
+2015-04-23 16:56:53.791 schonck[56462:1429430] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/4FE4A0E4-478A-4A18-83D0-7B3B348087A7/schonck.app/www/index.html
+2015-04-23 16:58:17.798 schonck[56649:1430863] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 16:58:17.799 schonck[56649:1430863] Multi-tasking -> Device: YES, App: YES
+2015-04-23 16:58:17.801 schonck[56649:1430863] Unlimited access to network resources
+2015-04-23 16:58:17.803 schonck[56649:1430863] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 16:58:17.914 schonck[56649:1430863] [CDVTimer][splashscreen] 13.011038ms
+2015-04-23 16:58:17.915 schonck[56649:1430863] [CDVTimer][TotalPluginStartup] 13.219953ms
+2015-04-23 16:58:18.091 schonck[56649:1430863] Resetting plugins due to page load.
+2015-04-23 16:58:18.318 schonck[56649:1430863] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/80C5D43D-185D-4D7D-A271-23D15B630D34/schonck.app/www/index.html
