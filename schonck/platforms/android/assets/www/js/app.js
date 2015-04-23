@@ -162,3 +162,10 @@
   
 })();
 
+ document.addEventListener("deviceready", onDeviceReady, false);
+ 
+ // device APIs are available
+ //
+ function onDeviceReady() {
+    navigator.splashscreen.show();
+}

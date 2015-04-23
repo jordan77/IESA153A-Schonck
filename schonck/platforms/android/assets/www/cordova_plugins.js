@@ -90,6 +90,13 @@ module.exports = [
         "merges": [
             ""
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -97,7 +104,8 @@ module.exports.metadata =
 {
     "org.apache.cordova.camera": "0.3.6",
     "org.apache.cordova.contacts": "0.2.16",
-    "org.apache.cordova.geolocation": "0.3.12"
+    "org.apache.cordova.geolocation": "0.3.12",
+    "org.apache.cordova.splashscreen": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

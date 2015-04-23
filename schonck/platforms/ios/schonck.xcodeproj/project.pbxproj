@@ -49,6 +49,7 @@
 		878406E6DF8B434CA5DE5FCD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A977550D12947FD8AA39F8E /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E6351154163849849A67BA6B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BEAA52838E4A1B93BF0BC6 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A08DDB64B9D740DCB81864C2 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 311F10103D034027A6056284 /* CDVLocation.m */; };
+		01B2A0F5571A487AB04AB91E /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CD990CF7BB2C4145BDE62ECA /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		D5BEAA52838E4A1B93BF0BC6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		311F10103D034027A6056284 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		B7812AD9706F4EEE971CC2D3 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CD990CF7BB2C4145BDE62ECA /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B1E5D33B04464E19AE05A338 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +253,8 @@
 				E84D42B63E004F90BD53438D /* CDVContact.h */,
 				311F10103D034027A6056284 /* CDVLocation.m */,
 				B7812AD9706F4EEE971CC2D3 /* CDVLocation.h */,
+				CD990CF7BB2C4145BDE62ECA /* CDVSplashScreen.m */,
+				B1E5D33B04464E19AE05A338 /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = "schonck/Plugins";
@@ -440,6 +445,7 @@
 				D4BDF962F6A2435AA10C7C2B /* CDVContacts.m in Sources */,
 				C960A935842B455888A21DA5 /* CDVContact.m in Sources */,
 				A08DDB64B9D740DCB81864C2 /* CDVLocation.m in Sources */,
+				01B2A0F5571A487AB04AB91E /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

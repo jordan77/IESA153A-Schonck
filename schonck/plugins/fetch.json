@@ -16,5 +16,11 @@
             "type": "registry",
             "id": "org.apache.cordova.camera"
         }
+    },
+    "org.apache.cordova.splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.splashscreen"
+        }
     }
 }
