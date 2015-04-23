@@ -11,19 +11,5 @@
     <access origin="*" />
 
 
-    (in app/res/xml/config.xml)
-    	<feature name="Geolocation">
-        	<param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
-    	</feature>
-
-
-    	(in app/AndroidManifest.xml)
-    	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-    	<feature name="Geolocation">
-        	<param name="ios-package" value="CDVLocation" />
-    	</feature>
-
     	
 </widget>

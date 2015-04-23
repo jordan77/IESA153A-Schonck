@@ -1,0 +1,21 @@
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes.dex : \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/BuildConfig.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/MainActivity.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/R$attr.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/R$drawable.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/R$string.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/R$xml.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/com/cordova/schonck/R.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor$WhereOptions.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessorSdk5.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactInfoDTO.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$2.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$3.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$4.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/dexedLibs/classes-9a53bcaee7d29d92737f76c9bfbcd66f.jar \

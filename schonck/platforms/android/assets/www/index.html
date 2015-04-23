@@ -1,68 +1,170 @@
-<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
 
-    http://www.apache.org/licenses/LICENSE-2.0
+  <title>My App</title>  
+  
+  <link rel="stylesheet" href="lib/onsen/css/onsenui.css">  
+  <link rel="stylesheet" href="styles/app.css"/>
+  <link rel="stylesheet" href="styles/onsen-css-components-default.css">  
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  <script src="lib/onsen/js/angular/angular.js"></script>    
+  <script src="lib/onsen/js/onsenui.js"></script>    
+  
+  <script src="cordova.js"></script>  
+  <script src="js/app.js"></script>  
+  <script>
+    ons.ready(function() {
+    });
+  </script>
 
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-       <!--  <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>SCHONCK</title>
-    </head>
-    <body>
-    <h1 class="logo"><img src="img/logo.png" alt="Schonck Logo"/></h1>
-    <div class="content">
-        <h2 class="title">Mon Compte</h2>
-        <div class="infoProfile">
-            <div class="profilePic">
-                <a href="#" onclick="capturePhoto();" class="editPic">Capture Photo</a>
-                <a href="#" class="editPic" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</a>
-                
-                <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-                <img src="#" id="largeImage" alt="profilePic"/>
-            </div>
-            
+  <style>
+    .item {
+      padding: 10px;
+      line-height: 1;
+    }
+    .item-thum {
+      background-color: #ccc;
+      width: 50px;
+      height: 50px;
+      border-radius: 4px;
+    }
+    .item-title {
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .item-desc {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.3;
+      margin: 4px 0 0 0;
+      padding: 0 30px 0 0;
+    }
+    .item-label {
+      font-size: 12px;
+      color: #999;
+      float: right;
+    }
+  </style>
+</head>
+
+<body ng-controller="AppController">    
+
+  
+<ons-navigator var="navi">
+  <ons-page ng-controller="MasterController">
+      <ons-toolbar>
+        <div class="left"><ons-back-button>Home</ons-back-button></div>
+        <div class="center">Account</div>
+      </ons-toolbar>
+
+      <ons-row class="profile-wrapper">
+        <ons-col width="60px" class="profile-image-wrapper" ng-click="updatePhoto()" >
+          <img src="{{profil.image}}" class="profile-image" style="min-width:50px;min-height:50px;max-width: 60px;">
+        </ons-col>
+
+        <ons-col>
+          <div class="profile-name">{{profil.name}}</div>
+          <div class="profile-email">{{profil.email}}</div>
+        </ons-col>
+
+      </ons-row>
+
+      
+
+      <ons-list modifier="inset" class="settings-list" ng-click="updateGeoloc()">
+        <ons-list-item modifier="chevron" >
+          {{profil.geolocation}}
+        </ons-list-item>
+      </ons-list>
+
+      <br>
+
+      <ons-list modifier="inset" class="settings-list" ng-click="share()">
+        <ons-list-item modifier="chevron" >
+          Share your sound
+        </ons-list-item>
+      </ons-list>
+
+      <ons-list modifier="inset" class="settings-list">
+        <ons-list-item modifier="tappable">
+          <ons-icon icon="ion-log-out" style="opacity: 0.8"></ons-icon>
+          Sign out
+        </ons-list-item>
+      </ons-list>
 
 
-            <div class="dataUser">
-                <ul class="listUserInfo">
-                    <li>
-                        <h3>Jean Jean</h3>
-                    </li>
-                    <li>
-                        <p id="myPosition">Paris</p>
-                        <a href="#" id="editLocation" class="button small secondary">Edit</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a href="#" id="shareSet" class="button medium primary">Partager</a>
-    </div>
+    </ons-page>
+</ons-navigator>
 
-            
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
-        <script type="text/javascript" src="js/geoloc.js"></script>
-        <script type="text/javascript" src="js/camera.js"></script>
-    </body>
+
+
+
+
+<ons-template id="listcontact.html">
+  <ons-page ng-controller="ContactController"> 
+      <ons-toolbar>
+        <div class="center">List With Header</div>
+      </ons-toolbar>
+
+      <ons-list>
+        <ons-list-header>Your contact</ons-list-header>
+        <ons ng-repeat="contact in contacts">
+          <ons-list-item modifier="chevron">{{contact.name}}</ons-list-item>
+        </ons>
+      </ons-list>
+  </ons-page>
+</ons-template>
+
+
+
+
+  <!-- <ons-template id="detail.html">
+    <ons-page ng-controller="DetailController">
+
+      <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">Details</div>
+      </ons-toolbar>
+
+      <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="item">
+          <ons-row>
+            <ons-col width="60px"> 
+              <div class="item-thum"></div>
+            </ons-col>
+            <ons-col>
+              <header>
+                <span class="item-title">{{item.title}}</span>
+                <span class="item-label">{{item.label}}</span>
+              </header>
+              <p class="item-desc">{{item.desc}}</p>
+            </ons-col>
+          </ons-row>
+        </ons-list-item>
+
+        <ons-list-item modifier="chevron" ng-click="doSomething()">
+          <ons-icon icon="ion-chatboxes" fixed-width="true" style="color: #ccc"></ons-icon>
+          Add a note
+        </ons-list-item>
+      </ons-list>
+
+      <ons-list style="margin-top: 10px">
+        <ons-list-item class="item" ng-repeat="i in [1,2,3]">
+          <header>
+            <span class="item-title">Lorem ipsum dolor sit amet</span>
+          </header>
+          <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </ons-list-item>
+      </ons-list>
+
+      <br>
+
+    </ons-page>
+  </ons-template> -->
+
+</body>  
 </html>

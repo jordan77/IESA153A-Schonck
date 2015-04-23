@@ -1,0 +1,48 @@
+Node version: v0.10.33
+
+Cordova version: 4.3.0
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cordova.schonck" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>schonck</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+
+    (in app/res/xml/config.xml)
+    	<feature name="Geolocation">
+        	<param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+    	</feature>
+
+
+    	(in app/AndroidManifest.xml)
+    	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    	<feature name="Geolocation">
+        	<param name="ios-package" value="CDVLocation" />
+    	</feature>
+
+    	
+</widget>
+
+
+Plugins: 
+
+org.apache.cordova.camera,org.apache.cordova.contacts,org.apache.cordova.geolocation
+
+Error retrieving Android platform information: Error: android: Command failed with exit code ENOENT
+
+iOS platform:
+
+Xcode 6.2
+Build version 6C131e
+
