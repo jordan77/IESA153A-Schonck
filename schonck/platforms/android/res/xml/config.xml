@@ -17,11 +17,11 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
-    <icon src="res/drawable/icon.png" />
-    <icon density="ldpi" src="res/drawable-ldpi/icon.png" />
-    <icon density="mdpi" src="res/drawable-mdpi/icon.png" />
-    <icon density="hdpi" src="res/drawable-hdpi/icon.png" />
-    <icon density="xhdpi" src="res/drawable-xhdpi/icon.png" />
+    <icon src="Resources/icons/icon1.png" />
+    <icon density="ldpi" src="Resources/icons/icon3.png" />
+    <icon density="mdpi" src="Resources/icons/icon4.png" />
+    <icon density="hdpi" src="Resources/icons/icon2.png" />
+    <icon density="xhdpi" src="Resources/icons/icon5.png" />
     <name>schonck</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
