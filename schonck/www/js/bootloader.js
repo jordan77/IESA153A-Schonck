@@ -1,29 +1,59 @@
 var bootLoader = (function ($) {
 
 	var currentPage = "index";
+    var localStorage = false;
 
     function init() {
        	
-    	
-        navigator.globalization.getPreferredLanguage(
-            function (language){
-                alert('language: ' + language.value + '\n');
-            },
-           	function (){
-                 alert('Error getting language\n');
-            }
-		);
-             
+        translation.init();
+        
+        if(window.localStorage.getItem("name") && window.localStorage.getItem("email")){
+            localStorage=true;
+            var name = window.localStorage.getItem("name");
+            var email = window.localStorage.getItem("email");
+
+            $( ".page.account" ).find( ".accountData h3" ).html( name);
+            $( ".page.account" ).find( ".accountData .email span" ).html( email );
+
+        }
+
+        showAccount();
+
+        $( ".accountlogout" ).on( "click",function(){
+            window.localStorage.removeItem("name");
+            window.localStorage.removeItem("email");
+            localStorage=false;
+            showAccount();
+        });
+
+        $('.formConnexion').submit(function(event){
+
+            var email = $('.formConnexion .email').val();
+            var password = $('.formConnexion .password').val();
+            
+            $.post( "http://juglet-mathieu.fr/schonck/index.php",{log: email, pass: password}, function( data ) {
+                console.log(data);
+                if(data.status == "ok"){
+                    $( ".page.account" ).find( ".accountData h3" ).html( data.data.firstname+" "+data.data.lastname );
+                    $( ".page.account" ).find( ".accountData .email span" ).html( data.data.email );
+
+                    window.localStorage.setItem("name", data.data.firstname+" "+data.data.lastname);
+                    window.localStorage.setItem("email", data.data.email);
+        
+
+                    $('.accountData').css("display","block"); 
+                    $('.accountDisconnect').css("display","none");
+                    $( "#accountconnexion" ).modal('hide');
+                }else{
+                    alert("adresse mail ou mot de passe éronné ");
+                }
+            });
+
+            event.preventDefault();
+        });  
 
     	camera.init();
     	window.analytics.startTrackerWithId('UA-62203033-1');
-
-    	$.getJSON( "http://juglet-mathieu.fr/schonck/index.json", function( data ) {
-			$( ".page.account" ).find( "h3" ).html( data.data.firstname+" "+data.data.lastname );
-			$( ".page.account" ).find( ".email span" ).html( data.data.email );
-		});
-
-
 
     	$( ".index" ).css( "display" , "block" );
 
@@ -73,6 +103,16 @@ var bootLoader = (function ($) {
 		    );
     	}
     };
+
+    var showAccount = function(){
+        if(localStorage == false){
+            $('.accountData').css("display","none"); 
+            $('.accountDisconnect').css("display","block");          
+        }else{
+            $('.accountData').css("display","block"); 
+            $('.accountDisconnect').css("display","none"); 
+        }
+    }
 
     return {
         init : init

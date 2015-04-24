@@ -29,8 +29,9 @@
 	          	</div>
 	          	<div id="navbar" class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
-	              		<li class="active"><a data-href="home" class="openpage" data-page="index">Home</a></li>
-	              		<li><a data-href="account" class="openpage" data-page="account">My account</a></li>
+	              		<li class="active"><a data-href="home" class="openpage" data-page="index" data-fr="Accueil" data-en="Home">Home</a></li>
+	              		<li><a data-href="account" class="openpage" data-page="account" data-fr="Mon Compte" data-en="My account">My account</a></li>
+	              		<li><a data-href="setting" class="openpage" data-page="setting" data-fr="Paremètre" data-en="Settings">Settings</a></li>
 	            	</ul>
 	          	</div>
 	        </div>
@@ -64,7 +65,11 @@
 		    <!-- Account -->
 		    <div class="page account">
 				
-		    	<div class="col-lg-4">
+		    	<div class="col-lg-4 accountData">
+
+					<button type="button" class="btn btn-default accountlogout">Logout</button>
+
+
 		    		<div class="col-lg-12">
           				<img class="img-circle profilImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           				<button data-toggle="modal" data-target="#profilpicture" type="button" class="btn btn-default">Change your photo</button>
@@ -75,9 +80,21 @@
           			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation">Change Information</button>
         		</div>
 
-        		
+        		<div class="col-lg-4 accountDisconnect">         			
+          			<h3>Vous n'êtes pas connectés</h3>
+          			<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation">Se connecter</button>
+        		</div>
 
 			</div>
+
+			<!-- SETTINGS -->
+			<div class="page setting col-xs-12">
+				<h2>Change language</h2>
+				<div class="btn-group" role="group" aria-label="changeLanguage">
+	    			<button id="setLangFr" type="button" class="btn btn-default">FR</button>
+	    			<button id="setLangEn" type="button" class="btn btn-default">EN</button>
+	    		</div>
+	    	</div>
 
 		</div>
 
@@ -129,6 +146,32 @@
 		</div>
 	</div>
 
+	<!-- Modal Connexion -->
+	<div class="modal fade" id="accountconnexion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Connexion</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<form action="" class="formConnexion">
+			       		<div class="form-group">
+			       		
+					    	<label for="exampleInputEmail1">Adresse email</label>
+					    	<input type="text" class="form-control email" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="exampleInputEmail1">Mot de passe</label>
+					    	<input type="text" class="form-control password" id="exampleInputEmail1" value="">
+					  	</div>
+						<button type="submit" class="btn btn-default btn-block">Se connecter</button>
+					</form>
+		      </div>
+		    </div>
+		</div>
+	</div>
+
 	<!-- Modal Share -->
 	<div class="modal fade" id="Sharecontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -159,7 +202,7 @@
 	<script src="js/camera.js"></script>
 	<script src="js/geolocation.js"></script>
 	<script src="js/contact.js"></script>
+	<script src="js/translation.js"></script>
 	<script src="js/bootloader.js"></script>
-	<script src="js/splashscreen.js"></script>
 </body>  
 </html>

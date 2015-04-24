@@ -17,3 +17,89 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-24 09:29:43.278 schonck[1376:13263] THREAD WARNING: ['Globalization'] took '33679.918213' ms. Plugin should use a background thread.
 2015-04-24 09:29:43.283 schonck[1376:13287] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
 2015-04-24 09:29:43.297 schonck[1376:13263] idfa class missing, won't collect idfa
+2015-04-24 13:26:59.663 schonck[5691:84740] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 13:26:59.663 schonck[5691:84740] Multi-tasking -> Device: YES, App: YES
+2015-04-24 13:26:59.665 schonck[5691:84740] Unlimited access to network resources
+2015-04-24 13:26:59.667 schonck[5691:84740] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 13:26:59.739 schonck[5691:84740] [CDVTimer][splashscreen] 11.415005ms
+2015-04-24 13:26:59.739 schonck[5691:84740] [CDVTimer][TotalPluginStartup] 11.559010ms
+2015-04-24 13:26:59.800 schonck[5691:84740] Resetting plugins due to page load.
+2015-04-24 13:26:59.973 schonck[5691:84740] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/FBA80C22-1330-4C71-B987-F7C96DB0677C/schonck.app/www/index.html
+2015-04-24 13:27:00.060 schonck[5691:84740] log1
+2015-04-24 13:27:08.592 schonck[5691:84740] THREAD WARNING: ['Globalization'] took '8532.312988' ms. Plugin should use a background thread.
+2015-04-24 13:27:08.609 schonck[5691:84740] idfa class missing, won't collect idfa
+2015-04-24 13:45:24.496 schonck[6326:93487] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 13:45:24.497 schonck[6326:93487] Multi-tasking -> Device: YES, App: YES
+2015-04-24 13:45:24.499 schonck[6326:93487] Unlimited access to network resources
+2015-04-24 13:45:24.501 schonck[6326:93487] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 13:45:24.571 schonck[6326:93487] [CDVTimer][splashscreen] 11.493981ms
+2015-04-24 13:45:24.572 schonck[6326:93487] [CDVTimer][TotalPluginStartup] 11.633992ms
+2015-04-24 13:45:24.622 schonck[6326:93487] Resetting plugins due to page load.
+2015-04-24 13:45:24.787 schonck[6326:93487] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/19D35BBC-41CF-4FB4-9B71-D4144F108499/schonck.app/www/index.html
+2015-04-24 13:45:24.871 schonck[6326:93487] log1
+2015-04-24 13:45:24.885 schonck[6326:93487] idfa class missing, won't collect idfa
+2015-04-24 13:46:52.543 schonck[6561:94555] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 13:46:52.543 schonck[6561:94555] Multi-tasking -> Device: YES, App: YES
+2015-04-24 13:46:52.545 schonck[6561:94555] Unlimited access to network resources
+2015-04-24 13:46:52.548 schonck[6561:94555] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 13:46:52.643 schonck[6561:94555] [CDVTimer][splashscreen] 12.070954ms
+2015-04-24 13:46:52.643 schonck[6561:94555] [CDVTimer][TotalPluginStartup] 12.283027ms
+2015-04-24 13:46:52.827 schonck[6561:94555] Resetting plugins due to page load.
+2015-04-24 13:46:52.966 schonck[6561:94555] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/621DE6B5-0CFA-43C2-9C22-90BF33AC1A65/schonck.app/www/index.html
+2015-04-24 13:46:53.047 schonck[6561:94555] log1
+2015-04-24 13:46:53.061 schonck[6561:94555] idfa class missing, won't collect idfa
+2015-04-24 13:47:18.668 schonck[6772:95240] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 13:47:18.669 schonck[6772:95240] Multi-tasking -> Device: YES, App: YES
+2015-04-24 13:47:18.672 schonck[6772:95240] Unlimited access to network resources
+2015-04-24 13:47:18.674 schonck[6772:95240] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 13:47:18.774 schonck[6772:95240] [CDVTimer][splashscreen] 12.246966ms
+2015-04-24 13:47:18.774 schonck[6772:95240] [CDVTimer][TotalPluginStartup] 12.445033ms
+2015-04-24 13:47:18.901 schonck[6772:95240] Resetting plugins due to page load.
+2015-04-24 13:47:19.020 schonck[6772:95240] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/50B59784-4CDB-4B57-AF08-36C9CAC9BDE6/schonck.app/www/index.html
+2015-04-24 13:47:19.100 schonck[6772:95240] log1
+2015-04-24 13:47:19.115 schonck[6772:95240] idfa class missing, won't collect idfa
+2015-04-24 13:47:53.420 schonck[6988:96013] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 13:47:53.420 schonck[6988:96013] Multi-tasking -> Device: YES, App: YES
+2015-04-24 13:47:53.422 schonck[6988:96013] Unlimited access to network resources
+2015-04-24 13:47:53.424 schonck[6988:96013] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 13:47:53.512 schonck[6988:96013] [CDVTimer][splashscreen] 11.377990ms
+2015-04-24 13:47:53.512 schonck[6988:96013] [CDVTimer][TotalPluginStartup] 11.509001ms
+2015-04-24 13:47:53.653 schonck[6988:96013] Resetting plugins due to page load.
+2015-04-24 13:47:53.772 schonck[6988:96013] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/2AE74DD8-90D5-49DA-9A7D-5786C9463C18/schonck.app/www/index.html
+2015-04-24 13:47:53.861 schonck[6988:96013] log1
+2015-04-24 13:47:53.874 schonck[6988:96013] idfa class missing, won't collect idfa
