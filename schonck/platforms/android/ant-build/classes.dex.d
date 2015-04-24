@@ -37,6 +37,10 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$6.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$7.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$3.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/dexedLibs/classes-9a53bcaee7d29d92737f76c9bfbcd66f.jar \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/dexedLibs/classes-33f9ec207e163704c9d9c63c9f8c8d3d.jar \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/dexedLibs/libGoogleAnalyticsServices-e9a770ec6547cb9ad2f499fa334dfd03.jar \

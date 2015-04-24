@@ -17,6 +17,10 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
     <icon src="Resources/icons/icon1.png" />
     <icon density="ldpi" src="Resources/icons/icon3.png" />
     <icon density="mdpi" src="Resources/icons/icon4.png" />
@@ -39,6 +43,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="2000" />
 </widget>

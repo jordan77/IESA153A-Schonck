@@ -4,7 +4,7 @@ var bootLoader = (function ($) {
     var localStorage = false;
 
     function init() {
-       	
+       	StatusBar.overlaysWebView(false);
         translation.init();
         
         if(window.localStorage.getItem("name") && window.localStorage.getItem("email")){

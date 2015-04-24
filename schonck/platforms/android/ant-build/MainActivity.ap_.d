@@ -271,6 +271,7 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/com.danielcwilson.plugins.googleanalytics/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/com.danielcwilson.plugins.googleanalytics/www/analytics.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
@@ -293,6 +294,8 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/GlobalizationError.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar/www \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar/www/statusbar.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/css \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/img \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/index.html \

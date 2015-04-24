@@ -40,5 +40,11 @@
             "type": "registry",
             "id": "com.danielcwilson.plugins.googleanalytics"
         }
+    },
+    "org.apache.cordova.statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.statusbar"
+        }
     }
 }

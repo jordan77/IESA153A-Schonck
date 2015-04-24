@@ -57,6 +57,7 @@
 		835BA3158DEC449A936A98F7 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B18AD34C4EE0869790B8 /* CDVLocation.m */; };
 		E532456637F3443DA5EE4FB6 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2E253EEFB4A6CBA236182 /* CDVGlobalization.m */; };
 		43CB77FEFC444A188185128E /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C0B7E6F73C4D53983681BD /* CDVSplashScreen.m */; };
+		9A3299BB36F2443EBEBD039B /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A2ECCBD824418B38AB2E3 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,8 @@
 		C75650DEDF904CA2AB78B1B4 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "org.apache.cordova.globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		E9C0B7E6F73C4D53983681BD /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		A67110A5DD784B42A4469C85 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		412A2ECCBD824418B38AB2E3 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6B98A0F336B54E619B7E4917 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +308,8 @@
 				C75650DEDF904CA2AB78B1B4 /* CDVGlobalization.h */,
 				E9C0B7E6F73C4D53983681BD /* CDVSplashScreen.m */,
 				A67110A5DD784B42A4469C85 /* CDVSplashScreen.h */,
+				412A2ECCBD824418B38AB2E3 /* CDVStatusBar.m */,
+				6B98A0F336B54E619B7E4917 /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "schonck/Plugins";
@@ -498,6 +503,7 @@
 				835BA3158DEC449A936A98F7 /* CDVLocation.m in Sources */,
 				E532456637F3443DA5EE4FB6 /* CDVGlobalization.m in Sources */,
 				43CB77FEFC444A188185128E /* CDVSplashScreen.m in Sources */,
+				9A3299BB36F2443EBEBD039B /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+    <preference name="fullscreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="2000" />
     <platform name="ios">
@@ -63,5 +67,7 @@
     <splash src="Resources/splash/screen6.png" density="port-ldpi"/>
     <splash src="Resources/splash/screen7.png" density="port-mdpi"/>
     <splash src="Resources/splash/screen8.png" density="port-xhdpi"/>
+
+
 </platform>
 </widget>
