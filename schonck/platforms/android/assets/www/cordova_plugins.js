@@ -1,6 +1,13 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/com.danielcwilson.plugins.googleanalytics/www/analytics.js",
+        "id": "com.danielcwilson.plugins.googleanalytics.UniversalAnalytics",
+        "clobbers": [
+            "analytics"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
         "id": "org.apache.cordova.camera.Camera",
         "clobbers": [
@@ -92,6 +99,20 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.globalization/www/GlobalizationError.js",
+        "id": "org.apache.cordova.globalization.GlobalizationError",
+        "clobbers": [
+            "window.GlobalizationError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.globalization/www/globalization.js",
+        "id": "org.apache.cordova.globalization.globalization",
+        "clobbers": [
+            "navigator.globalization"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
         "id": "org.apache.cordova.splashscreen.SplashScreen",
         "clobbers": [
@@ -102,9 +123,12 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "com.danielcwilson.plugins.googleanalytics": "0.6.1",
+    "com.google.playservices": "21.0.0",
     "org.apache.cordova.camera": "0.3.6",
     "org.apache.cordova.contacts": "0.2.16",
     "org.apache.cordova.geolocation": "0.3.12",
+    "org.apache.cordova.globalization": "0.3.4",
     "org.apache.cordova.splashscreen": "1.0.0"
 }
 // BOTTOM OF METADATA
