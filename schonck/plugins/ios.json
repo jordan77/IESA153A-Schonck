@@ -11,6 +11,10 @@
                         {
                             "xml": false,
                             "count": 1
+                        },
+                        {
+                            "xml": true,
+                            "count": 1
                         }
                     ],
                     "CoreData.framework": [
@@ -117,6 +121,10 @@
                         {
                             "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -156,6 +164,9 @@
             "PACKAGE_NAME": "com.cordova.schonck"
         },
         "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.cordova.schonck"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.cordova.schonck"
         }
     },

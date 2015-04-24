@@ -27,6 +27,8 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization$1.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/globalization/GlobalizationError.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager$1.class \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$1.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$2.class \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$3.class \

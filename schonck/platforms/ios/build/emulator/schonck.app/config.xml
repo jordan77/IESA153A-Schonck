@@ -40,6 +40,9 @@
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
     <icon height="180" src="Resources/icons/icon-60@3x.png" width="180" />
     <icon height="60" src="Resources/icons/icon-60.png" width="60" />
     <icon height="120" src="Resources/icons/icon-60@2x.png" width="120" />
@@ -64,6 +67,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="fullscreen" value="true" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="2000" />

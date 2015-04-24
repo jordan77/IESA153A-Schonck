@@ -270,6 +270,7 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/com.danielcwilson.plugins.googleanalytics/www \
@@ -292,6 +293,9 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/globalization.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/GlobalizationError.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/Connection.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar/www \

@@ -21,6 +21,9 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
     <icon src="Resources/icons/icon1.png" />
     <icon density="ldpi" src="Resources/icons/icon3.png" />
     <icon density="mdpi" src="Resources/icons/icon4.png" />
