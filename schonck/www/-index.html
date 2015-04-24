@@ -41,20 +41,20 @@
 	    
 		    <!-- INDEX -->
 		    <div class=" page index col-xs-12">
-		    	<h2 class="sub-header" data-fr="Mes musiques" data-en="My songs">My songs</h2>
+		    	<h2 class="sub-header">List of your song</h2>
 		    	<div class="table-responsive">
 		            <table class="table table-striped col-xs-12">
 		            	<thead>
 		                	<tr>
-		                  		<th data-fr="Nom" data-en="Name">Name</th>
-		                  		<th data-fr="Partager" data-en="Share">Share</th>
+		                  		<th>Name</th>
+		                  		<th>Share</th>
 		                	</tr>
 		              	</thead>
 		              	<tbody>
 		                	<tr>
 		                  		<td>song-1.mp3</td>
 		                  		<td>
-		                  			<button type="button" class="btn btn-primary contactshare" data-fr="Partager" data-en="Share">Share</button>
+		                  			<button type="button" class="btn btn-primary contactshare">Share</button>
 		                  		</td>
 		                	</tr>
 		              	</tbody>
@@ -67,29 +67,29 @@
 				
 		    	<div class="col-lg-4 accountData">
 
-					<button type="button" class="btn btn-default accountlogout" data-fr="Déconnexion" data-en="Logout">Logout</button>
+					<button type="button" class="btn btn-default accountlogout">Logout</button>
 
 
 		    		<div class="col-lg-12">
           				<img class="img-circle profilImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          				<button data-toggle="modal" data-target="#profilpicture" type="button" class="btn btn-default" data-fr="Modifier votre photo" data-en="Update your picture">Update your picture</button>
+          				<button data-toggle="modal" data-target="#profilpicture" type="button" class="btn btn-default">Change your photo</button>
           			</div>
           			<h3>Your name</h3>
           			<h4 class="email">Email: <span>Your email</span></h4>
-          			<h4><span data-fr="Ma position" data-en="Your location">Your location:</span> <span>Vélizy villacoublay</span></h4>
-          			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Modifier les informations" data-en="Update informations">Update Informations</button>
+          			<h4>Your location: <span>Vélizy villacoublay</span></h4>
+          			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation">Change Information</button>
         		</div>
 
         		<div class="col-lg-4 accountDisconnect">         			
-          			<h3 data-fr="Vous n'êtes pas connectés" data-en="You are not connected">You are not connected</h3>
-          			<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+          			<h3>Vous n'êtes pas connectés</h3>
+          			<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation">Se connecter</button>
         		</div>
 
 			</div>
 
 			<!-- SETTINGS -->
 			<div class="page setting col-xs-12">
-				<h2 data-fr="Modifier le langage" data-en="Update language">Update language</h2>
+				<h2>Change language</h2>
 				<div class="btn-group" role="group" aria-label="changeLanguage">
 	    			<button id="setLangFr" type="button" class="btn btn-default">FR</button>
 	    			<button id="setLangEn" type="button" class="btn btn-default">EN</button>
@@ -106,11 +106,11 @@
 			<div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel" data-fr="Modifier votre photo" data-en="Update your picture">Update your picture</h4>
+		        <h4 class="modal-title" id="myModalLabel">Change your photo</h4>
 		      </div>
 		      <div class="modal-body">
-		       	<button id="takephoto" type="button" class="btn btn-default btn-lg btn-block" data-fr="Prendre une photo" data-en="Shot a new picture">Shot a new picture</button>
-		       	<button id="photogallery" type="button" class="btn btn-default btn-lg btn-block" data-fr="Utiliser la gallerie" data-en="Use gallery">Use gallery</button>
+		       	<button id="takephoto" type="button" class="btn btn-default btn-lg btn-block">Prendre une nouvelle photo</button>
+		       	<button id="photogallery" type="button" class="btn btn-default btn-lg btn-block">Utiliser une photo dans votre galerie</button>
 		      </div>
 		    </div>
 		</div>
@@ -122,25 +122,25 @@
 			<div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel" data-fr="Modifier mes informations" data-en="Update information">Update Information</h4>
+		        <h4 class="modal-title" id="myModalLabel">Change Information</h4>
 		      </div>
 		      <div class="modal-body">
 		       		<div class="form-group">
-				    	<label for="exampleInputEmail1" data-fr="Nom" data-en="Name">Name</label>
+				    	<label for="exampleInputEmail1">Name</label>
 				    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Mathieu Juglet" value="">
 				  	</div>
 				  	<div class="form-group">
-				    	<label for="exampleInputEmail1">Email</label>
+				    	<label for="exampleInputEmail1">Email address</label>
 				    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
 				  	</div>
 				  	<div class="row">
 					  	<div class="form-group col-xs-7">
-					    	<label for="exampleInputEmail1" data-fr="Position" data-en="Location">Location</label>
+					    	<label for="exampleInputEmail1">Location</label>
 					    	<input type="email" class="form-control inputprofillocation" id="exampleInputEmail1" placeholder="Vélizy villacoublay" value="">
 					  	</div>
-					 	<button type="submit" class="btn btn-primary col-xs-4 buttonprofillocation" style="margin-top:24px" data-fr="Géolocaliser" data-en="géolocate">add auto</button>
+					 	<button type="submit" class="btn btn-primary col-xs-4 buttonprofillocation" style="margin-top:24px">add auto</button>
 					</div>
-					<button type="button" class="btn btn-default btn-block" data-fr="Mettre a jour" data-en="Update">Update</button>
+					<button type="button" class="btn btn-default btn-block">Update</button>
 		      </div>
 		    </div>
 		</div>
@@ -152,20 +152,20 @@
 			<div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel" data-fr="Connexion" data-en="Connexion">Connexion</h4>
+		        <h4 class="modal-title" id="myModalLabel">Connexion</h4>
 		      </div>
 		      <div class="modal-body">
 		      	<form action="" class="formConnexion">
 			       		<div class="form-group">
 			       		
-					    	<label for="exampleInputEmail1" data-fr="Adresse email" data-en="email adress">Adresse email</label>
+					    	<label for="exampleInputEmail1">Adresse email</label>
 					    	<input type="text" class="form-control email" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
 					  	</div>
 					  	<div class="form-group">
-					    	<label for="exampleInputEmail1" data-fr="Mot de passe" data-en="Password">Password</label>
+					    	<label for="exampleInputEmail1">Mot de passe</label>
 					    	<input type="text" class="form-control password" id="exampleInputEmail1" value="">
 					  	</div>
-						<button type="submit" class="btn btn-default btn-block" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+						<button type="submit" class="btn btn-default btn-block">Se connecter</button>
 					</form>
 		      </div>
 		    </div>
@@ -178,7 +178,7 @@
 			<div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel" data-fr="Partager a un contact" data-en="Share with a contact">Share with a contact</h4>
+		        <h4 class="modal-title" id="myModalLabel">Contact Share</h4>
 		      </div>
 		      <div class="modal-body">
 		       		
