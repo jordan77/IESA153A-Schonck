@@ -22,6 +22,14 @@
     <icon density="mdpi" src="Resources/icons/icon4.png" />
     <icon density="hdpi" src="Resources/icons/icon2.png" />
     <icon density="xhdpi" src="Resources/icons/icon5.png" />
+    <splash density="land-hdpi" src="Resources/splash/screen1.png" />
+    <splash density="land-ldpi" src="Resources/splash/screen2.png" />
+    <splash density="land-mdpi" src="Resources/splash/screen3.png" />
+    <splash density="land-xhdpi" src="Resources/splash/screen4.png" />
+    <splash density="port-hdpi" src="Resources/splash/screen5.png" />
+    <splash density="port-ldpi" src="Resources/splash/screen6.png" />
+    <splash density="port-mdpi" src="Resources/splash/screen7.png" />
+    <splash density="port-xhdpi" src="Resources/splash/screen8.png" />
     <name>schonck</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -31,4 +39,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
 </widget>

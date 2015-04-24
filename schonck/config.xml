@@ -9,6 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
     <platform name="ios">
         <!-- iOS 8.0+ -->
         <!-- iPhone 6 Plus  -->
