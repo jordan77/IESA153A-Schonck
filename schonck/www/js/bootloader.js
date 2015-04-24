@@ -34,7 +34,6 @@ var bootLoader = (function ($) {
             var password = $('.formConnexion .password').val();
             
             $.post( "http://juglet-mathieu.fr/schonck/index.php",{log: email, pass: password}, function( data ) {
-                console.log(data);
                 if(data.status == "ok"){
                     $( ".page.account" ).find( ".accountData h3" ).html( data.data.firstname+" "+data.data.lastname );
                     $( ".page.account" ).find( ".accountData .email span" ).html( data.data.email );

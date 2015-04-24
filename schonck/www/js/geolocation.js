@@ -4,12 +4,15 @@ var geolocation = (function ($) {
 
     function init() {
         initialize();
+
         if (navigator.geolocation) {
+            
             navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
         } 
     };
 
     var successFunction = function(position) {
+
         var lat = position.coords.latitude;
         var lng = position.coords.longitude;
         codeLatLng(lat, lng);
@@ -21,9 +24,11 @@ var geolocation = (function ($) {
 
     var initialize = function() {
         geocoder = new google.maps.Geocoder();
+        
     }
 
     var codeLatLng = function(lat, lng) {
+        
         var latlng = new google.maps.LatLng(lat, lng);
             geocoder.geocode({'latLng': latlng}, function(results, status) {
             if (status == google.maps.GeocoderStatus.OK) {

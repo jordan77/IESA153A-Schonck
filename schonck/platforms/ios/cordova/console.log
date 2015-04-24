@@ -256,3 +256,57 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-24 14:38:07.760 schonck[11719:135180] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
 2015-04-24 14:38:07.766 schonck[11719:135163] log1
 2015-04-24 14:38:07.772 schonck[11719:135163] idfa class missing, won't collect idfa
+2015-04-24 15:13:52.063 schonck[12378:150785] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 15:13:52.064 schonck[12378:150785] Multi-tasking -> Device: YES, App: YES
+2015-04-24 15:13:52.066 schonck[12378:150785] Unlimited access to network resources
+2015-04-24 15:13:52.067 schonck[12378:150785] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 15:13:52.136 schonck[12378:150785] [CDVTimer][splashscreen] 9.392023ms
+2015-04-24 15:13:52.139 schonck[12378:150785] [CDVTimer][statusbar] 3.753006ms
+2015-04-24 15:13:52.140 schonck[12378:150785] [CDVTimer][TotalPluginStartup] 13.390958ms
+2015-04-24 15:13:52.256 schonck[12378:150785] Resetting plugins due to page load.
+2015-04-24 15:13:52.374 schonck[12378:150785] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/40876DEF-5961-41A5-9D51-B8EB10C85073/schonck.app/www/index.html
+2015-04-24 15:13:55.724 schonck[12378:150785] log1
+2015-04-24 15:13:55.730 schonck[12378:150785] idfa class missing, won't collect idfa
+2015-04-24 15:16:32.002 schonck[12378:153490] Terminating since there is no system app.
+2015-04-24 16:04:34.988 schonck[16588:205401] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 16:04:34.989 schonck[16588:205401] Multi-tasking -> Device: YES, App: YES
+2015-04-24 16:04:35.015 schonck[16588:205401] Unlimited access to network resources
+2015-04-24 16:04:35.041 schonck[16588:205401] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 16:04:35.438 schonck[16588:205401] [CDVTimer][splashscreen] 86.769998ms
+2015-04-24 16:04:35.448 schonck[16588:205401] [CDVTimer][statusbar] 9.648979ms
+2015-04-24 16:04:35.448 schonck[16588:205401] [CDVTimer][TotalPluginStartup] 96.726000ms
+2015-04-24 16:04:35.548 schonck[16588:205401] Resetting plugins due to page load.
+2015-04-24 16:04:35.745 schonck[16588:205401] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/3C513564-DA8A-497B-BBCD-7492B5531E7F/schonck.app/www/index.html
+2015-04-24 16:04:46.588 schonck[16808:206023] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 16:04:46.589 schonck[16808:206023] Multi-tasking -> Device: YES, App: YES
+2015-04-24 16:04:46.590 schonck[16808:206023] Unlimited access to network resources
+2015-04-24 16:04:46.593 schonck[16808:206023] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-24 16:04:46.703 schonck[16808:206023] [CDVTimer][splashscreen] 12.802005ms
+2015-04-24 16:04:46.709 schonck[16808:206023] [CDVTimer][statusbar] 5.528986ms
+2015-04-24 16:04:46.709 schonck[16808:206023] [CDVTimer][TotalPluginStartup] 18.675983ms
+2015-04-24 16:04:46.893 schonck[16808:206023] Resetting plugins due to page load.
+2015-04-24 16:04:47.075 schonck[16808:206023] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/50943AF7-EC7D-4698-8E9F-A788BF69F3AF/data/Containers/Bundle/Application/C9F5E199-05E0-4FCF-B6E7-8F3B615A1102/schonck.app/www/index.html
+2015-04-24 16:05:08.977 schonck[16808:206054] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-24 16:05:09.032 schonck[16808:206023] log1
+2015-04-24 16:05:09.041 schonck[16808:206023] idfa class missing, won't collect idfa
