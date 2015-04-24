@@ -47,4 +47,19 @@
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="Resources/splash/screen1.png" density="land-hdpi"/>
+    <splash src="Resources/splash/screen2.png" density="land-ldpi"/>
+    <splash src="Resources/splash/screen3.png" density="land-mdpi"/>
+    <splash src="Resources/splash/screen4.png" density="land-xhdpi"/>
+
+    <splash src="Resources/splash/screen5.png" density="port-hdpi"/>
+    <splash src="Resources/splash/screen6.png" density="port-ldpi"/>
+    <splash src="Resources/splash/screen7.png" density="port-mdpi"/>
+    <splash src="Resources/splash/screen8.png" density="port-xhdpi"/>
+</platform>
 </widget>

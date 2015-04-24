@@ -31,7 +31,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="SplashScreen">
-    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-</feature>
 </widget>
