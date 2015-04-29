@@ -5,6 +5,9 @@ var bootLoader = (function ($) {
 
     function init() {
 
+        // A jeter
+        ibeacon.init();
+
        	StatusBar.overlaysWebView(false);
         checkConnection();
         translation.init();

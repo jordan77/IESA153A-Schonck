@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/mathieujuglet/Documents/v1/IESA153A-Schonck/schonck/platforms/ios/schonck/main.m
+  /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/ios/schonck/main.m

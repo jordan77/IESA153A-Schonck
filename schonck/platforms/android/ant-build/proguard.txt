@@ -1,3 +1,12 @@
 # view AndroidManifest.xml #generated:6
 -keep class com.cordova.schonck.MainActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:21
+-keep class org.altbeacon.beacon.BeaconIntentProcessor { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class org.altbeacon.beacon.service.BeaconService { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class org.altbeacon.beacon.startup.StartupBroadcastReceiver { <init>(...); }
+

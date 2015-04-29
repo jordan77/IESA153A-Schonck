@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mathieujuglet/Documents/v1/IESA153A-Schonck/schonck/platforms/ios/schonck/Plugins/org.apache.cordova.camera/UIImage+CropScaleOrientation.m \
-  /Users/mathieujuglet/Documents/v1/IESA153A-Schonck/schonck/platforms/ios/schonck/Plugins/org.apache.cordova.camera/UIImage+CropScaleOrientation.h
+  /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/ios/schonck/Plugins/org.apache.cordova.camera/UIImage+CropScaleOrientation.m \
+  /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/ios/schonck/Plugins/org.apache.cordova.camera/UIImage+CropScaleOrientation.h
