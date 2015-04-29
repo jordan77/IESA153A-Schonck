@@ -14,7 +14,7 @@ Application prochainement disponible
 ```
 ______________________________
 
-Installer le projet : 
+###Installer le projet : 
 
 git clone https://github.com/jordan77/IESA153A-Schonck.git
 
