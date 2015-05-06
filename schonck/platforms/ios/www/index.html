@@ -13,6 +13,37 @@
 
 <body>
 
+	<div class="master">
+		<div class="container">
+
+			<div class="col-lg-4 needconnection hide-master">
+          		<h3 data-fr="Vous n'êtes pas connectés" data-en="You are not connected">You not connected in internet</h3>
+        	</div>
+
+			<div class="col-lg-4 notconnected hide-master">       			
+          		<h3 data-fr="Vous n'êtes pas connectés" data-en="You are not connected">You are not connected</h3>
+          		<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+        	</div>
+
+        	<div class="col-lg-4 load">       			
+          		Load
+        	</div>
+		</div>
+	</div>
+
+	<div class="sound">
+		<div class="container">
+			<div class="col-xs-2 col-md-2">
+			</div>
+			<div class="col-xs-8 col-md-2">
+          		<h3 data-fr="vous essayer <span class='instrument'></span>" data-en="you try <span class='instrument'></span>" style="text-align:center;">Vous essayer la <span class="instrument"></span></h3>
+          		<button class="quitsong btn-lg btn-block btn-warning" data-fr="Leave" data-en="Leave">
+          				Leave
+          		</button>
+        	</div>
+		</div>
+	</div>
+
 
 	<div class="container">
 
@@ -32,6 +63,8 @@
 	              		<li class="active"><a data-href="home" class="openpage" data-page="index" data-fr="Accueil" data-en="Home">Home</a></li>
 	              		<li><a data-href="account" class="openpage" data-page="account" data-fr="Mon Compte" data-en="My account">My account</a></li>
 	              		<li><a data-href="setting" class="openpage" data-page="setting" data-fr="Paremètre" data-en="Settings">Settings</a></li>
+	              		<li><a class="accountlogout" data-fr="Déconnexion" data-en="Logout">Logout</a></li>
+	              		
 	            	</ul>
 	          	</div>
 	        </div>
@@ -67,7 +100,7 @@
 				
 		    	<div class="col-lg-4 accountData">
 
-					<button type="button" class="btn btn-default accountlogout" data-fr="Déconnexion" data-en="Logout">Logout</button>
+					
 
 
 		    		<div class="col-lg-12">
@@ -76,7 +109,7 @@
           			</div>
           			<h3>Your name</h3>
           			<h4 class="email">Email: <span>Your email</span></h4>
-          			<h4><span data-fr="Ma position" data-en="Your location">Your location:</span> <span>Vélizy villacoublay</span></h4>
+          			<h4 class="location"><span data-fr="Ma position :" data-en="Your location :">Your location :</span> <span class="elem">Vélizy villacoublay</span></h4>
           			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Modifier les informations" data-en="Update informations">Update Informations</button>
         		</div>
 
@@ -127,20 +160,20 @@
 		      <div class="modal-body">
 		       		<div class="form-group">
 				    	<label for="exampleInputEmail1" data-fr="Nom" data-en="Name">Name</label>
-				    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Mathieu Juglet" value="">
+				    	<input type="email" class="form-control updatename" id="exampleInputEmail1" placeholder="Mathieu Juglet" value="">
 				  	</div>
 				  	<div class="form-group">
 				    	<label for="exampleInputEmail1">Email</label>
-				    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
+				    	<input type="email" class="form-control updateemail" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
 				  	</div>
 				  	<div class="row">
 					  	<div class="form-group col-xs-7">
 					    	<label for="exampleInputEmail1" data-fr="Position" data-en="Location">Location</label>
-					    	<input type="email" class="form-control inputprofillocation" id="exampleInputEmail1" placeholder="Vélizy villacoublay" value="">
+					    	<input type="email" class="form-control inputprofillocation updatelocation" id="exampleInputEmail1" placeholder="Vélizy villacoublay" value="">
 					  	</div>
 					 	<button type="submit" class="btn btn-primary col-xs-4 buttonprofillocation" style="margin-top:24px" data-fr="Géolocaliser" data-en="géolocate">add auto</button>
 					</div>
-					<button type="button" class="btn btn-default btn-block" data-fr="Mettre a jour" data-en="Update">Update</button>
+					<button type="button" class="btn btn-default btn-block updatedata" data-fr="Mettre a jour" data-en="Update">Update</button>
 		      </div>
 		    </div>
 		</div>
@@ -212,8 +245,9 @@
 	<script src="js/camera.js"></script>
 	<script src="js/geolocation.js"></script>
 	<script src="js/contact.js"></script>
-	<script src="js/translation.js"></script>
 	<script src="js/ibeacon.js"></script>
+	<script src="js/translation.js"></script>
+	
 	<script src="js/bootloader.js"></script>
 </body>  
 </html>

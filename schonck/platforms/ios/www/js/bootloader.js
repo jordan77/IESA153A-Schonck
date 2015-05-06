@@ -3,28 +3,37 @@ var bootLoader = (function ($) {
 	var currentPage = "index";
     var localStorage = false;
 
+    connexion = false;
+
+
     function init() {
 
+        checkConnection();
+
         // A jeter
-        ibeacon.init();
+        
 
        	StatusBar.overlaysWebView(false);
-        checkConnection();
         translation.init();
         
         if(window.localStorage.getItem("name") && window.localStorage.getItem("email")){
+            $('.master').velocity( { opacity: "0" }, { display: "none" } );
             localStorage=true;
             var name = window.localStorage.getItem("name");
             var email = window.localStorage.getItem("email");
-
             $( ".page.account" ).find( ".accountData h3" ).html( name);
             $( ".page.account" ).find( ".accountData .email span" ).html( email );
-
+        }else{
+            $( ".master .load" ).css("display", "none");
+            $( ".master .notconnected" ).css("display", "block");
         }
 
         showAccount();
 
         $( ".accountlogout" ).on( "click",function(){
+            $('.master').css("display","block");
+            $('.master').velocity( { opacity: "1" });
+            $( '.notconnected' ).css("display","block");
             window.localStorage.removeItem("name");
             window.localStorage.removeItem("email");
             localStorage=false;
@@ -48,6 +57,7 @@ var bootLoader = (function ($) {
                     $('.accountData').css("display","block"); 
                     $('.accountDisconnect').css("display","none");
                     $( "#accountconnexion" ).modal('hide');
+                    $('.master').velocity( { opacity: "0" }, { display: "none" } );
                 }else{
                     alert("adresse mail ou mot de passe éronné ");
                 }
@@ -84,6 +94,10 @@ var bootLoader = (function ($) {
     		contact.init();
     		window.analytics.trackView("contactShare");
     	});
+
+        $( ".updatedata" ).on( "click" , function(){
+            updateDate();
+        })
 
     };
 
@@ -130,7 +144,27 @@ var bootLoader = (function ($) {
             states[Connection.CELL]     = 'Cell generic connection';
             states[Connection.NONE]     = 'No network connection';
 
-            alert('Connection type: ' + states[networkState]);
+            if( networkState == "none"){
+                $( ".master .load" ).css("display", "none");
+                $( ".master .needconnection" ).css("display", "block");
+            }
+    }
+
+    var updateDate = function(){
+        
+        if( $( "#profilinformation" ).find( ".updatename" ).val() != "" ){
+            $( ".accountData" ).find( "h3" ).html( $( "#profilinformation" ).find( ".updatename" ).val() );
+        }
+
+        if( $( "#profilinformation" ).find( ".updateemail" ).val() != "" ){
+            $( ".accountData" ).find( "h4.email" ).html( $( "#profilinformation" ).find( ".updateemail" ).val() );
+        }
+
+        if( $( "#profilinformation" ).find( ".updatelocation" ).val() != "" ){
+            $( ".accountData" ).find( "h4.location span.elem" ).html( $( "#profilinformation" ).find( ".updatelocation" ).val() );
+        }
+
+        $( "#profilinformation" ).modal('hide');
     }
 
     return {

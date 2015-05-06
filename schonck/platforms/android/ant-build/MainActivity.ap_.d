@@ -272,7 +272,9 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/com.unarin.cordova.beacon \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file-transfer \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.media \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
@@ -306,6 +308,10 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactName.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactOrganization.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/contacts.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/compass.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/CompassError.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/CompassHeading.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www/android \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js \
@@ -329,6 +335,9 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www/requestFileSystem.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file/www/android/FileSystem.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file-transfer/www \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file-transfer/www/FileTransfer.js \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.file-transfer/www/FileTransferError.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/globalization.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/GlobalizationError.js \
@@ -343,8 +352,10 @@
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar/www \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/plugins/org.apache.cordova.statusbar/www/statusbar.js \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/sound/guitare.mp3 \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/sound/guitare2.mp3 \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/sound/harmonica.mp3 \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/sound/violoncelle.mp3 \
+/Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/sound/violoncelle2.mp3 \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/css \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/img \
 /Users/mathieujuglet/Documents/IESA153A-Schonck/schonck/platforms/android/assets/www/trash/index.html \
