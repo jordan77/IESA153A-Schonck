@@ -18,13 +18,13 @@ ______________________________
 
 git clone https://github.com/jordan77/IESA153A-Schonck.git
 
-Aller dans le dossier Schonck :
+Allez dans le dossier Schonck :
 
 cd (mettre l'emplacement du dossier exemple : /Users/Jordan/Desktop/Projet-Schonk/IESA153A-Schonck/schonck)
 cordova prepare 
 cordova build
 
-Un fois le projet installer tester le sur émulateur : 
+Un fois le projet installé, testez le sur émulateur : 
 
 iOS : cordova emulate ios
 Android : cordova emulate android
