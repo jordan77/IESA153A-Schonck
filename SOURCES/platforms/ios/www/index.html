@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <title>Schonk</title>  
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <link rel="stylesheet" href="css/custom.css"> 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>   
+</head>
+
+<body>
+
+	<div class="master">
+		<div class="container">
+
+			<div class="col-lg-4 needconnection hide-master">
+          		<h3 data-fr="Vous n'êtes pas a internet" data-en="You do not have internet">You do not have internet</h3>
+        	</div>
+
+			<div class="col-lg-4 notconnected hide-master">       			
+          		<h3 data-fr="Vous n'êtes pas connectés" data-en="You are not connected">You are not connected</h3>
+          		<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+        	</div>
+
+        	<div class="col-lg-4 load">       			
+          		Load
+        	</div>
+		</div>
+	</div>
+
+	<div class="sound">
+		<div class="container">
+			<div class="col-xs-2 col-md-2">
+			</div>
+			<div class="col-xs-8 col-md-2">
+          		<h3 data-fr="vous essayer <span class='instrument'></span>" data-en="you try <span class='instrument'></span>" style="text-align:center;">Vous essayer la <span class="instrument"></span></h3>
+          		<button class="quitsong btn-lg btn-block btn-warning" data-fr="Leave" data-en="Leave">
+          				Leave
+          		</button>
+        	</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+	    <nav class="navbar navbar-default">
+	    	<div class="container-fluid">
+	        	<div class="navbar-header">
+	            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              		<span class="sr-only">Toggle navigation</span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	            	</button>
+	            	<a class="navbar-brand" href="#">Schonk</a>
+	          	</div>
+	          	<div id="navbar" class="navbar-collapse collapse">
+	            	<ul class="nav navbar-nav">
+	              		<li class="active"><a data-href="home" class="openpage" data-page="index" data-fr="Accueil" data-en="Home">Home</a></li>
+	              		<li><a data-href="account" class="openpage" data-page="account" data-fr="Mon Compte" data-en="My account">My account</a></li>
+	              		<li><a data-href="setting" class="openpage" data-page="setting" data-fr="Paremètre" data-en="Settings">Settings</a></li>
+	              		<li><a class="accountlogout" data-fr="Déconnexion" data-en="Logout">Logout</a></li>
+	              		
+	            	</ul>
+	          	</div>
+	        </div>
+	    </nav>
+
+	    <div class="contentPage">
+	    
+		    <!-- INDEX -->
+		    <div class=" page index col-xs-12">
+		    	<h2 class="sub-header" data-fr="Mes musiques" data-en="My songs">My songs</h2>
+		    	<div class="table-responsive">
+		            <table class="table table-striped col-xs-12">
+		            	<thead>
+		                	<tr>
+		                  		<th data-fr="Nom" data-en="Name">Name</th>
+		                  		<th data-fr="Partager" data-en="Share">Share</th>
+		                	</tr>
+		              	</thead>
+		              	<tbody>
+		                	<tr>
+		                  		<td>song-1.mp3</td>
+		                  		<td>
+		                  			<button type="button" class="btn btn-primary contactshare" data-fr="Partager" data-en="Share">Share</button>
+		                  		</td>
+		                	</tr>
+		              	</tbody>
+		            </table>
+          		</div>
+		    </div>
+
+		    <!-- Account -->
+		    <div class="page account">
+				
+		    	<div class="col-lg-4 accountData">
+
+					
+
+
+		    		<div class="col-lg-12">
+          				<img class="img-circle profilImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          				<button data-toggle="modal" data-target="#profilpicture" type="button" class="btn btn-default" data-fr="Modifier votre photo" data-en="Update your picture">Update your picture</button>
+          			</div>
+          			<h3>Your name</h3>
+          			<h4 class="email">Email: <span>Your email</span></h4>
+          			<h4 class="location"><span data-fr="Ma position :" data-en="Your location :">Your location :</span> <span class="elem">Vélizy villacoublay</span></h4>
+          			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Modifier les informations" data-en="Update informations">Update Informations</button>
+        		</div>
+
+        		<div class="col-lg-4 accountDisconnect">         			
+          			<h3 data-fr="Vous n'êtes pas connectés" data-en="You are not connected">You are not connected</h3>
+          			<button data-toggle="modal" data-target="#accountconnexion" type="button" class="btn btn-default" data-toggle="modal" data-target="#profilinformation" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+        		</div>
+
+			</div>
+
+			<!-- SETTINGS -->
+			<div class="page setting col-xs-12">
+				<h2 data-fr="Modifier le langage" data-en="Update language">Update language</h2>
+				<div class="btn-group" role="group" aria-label="changeLanguage">
+	    			<button id="setLangFr" type="button" class="btn btn-default">FR</button>
+	    			<button id="setLangEn" type="button" class="btn btn-default">EN</button>
+	    		</div>
+	    	</div>
+
+		</div>
+
+    </div>
+
+    <!-- Modal Profil picture -->
+	<div class="modal fade" id="profilpicture" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel" data-fr="Modifier votre photo" data-en="Update your picture">Update your picture</h4>
+		      </div>
+		      <div class="modal-body">
+		       	<button id="takephoto" type="button" class="btn btn-default btn-lg btn-block" data-fr="Prendre une photo" data-en="Shot a new picture">Shot a new picture</button>
+		       	<button id="photogallery" type="button" class="btn btn-default btn-lg btn-block" data-fr="Utiliser la gallerie" data-en="Use gallery">Use gallery</button>
+		      </div>
+		    </div>
+		</div>
+	</div>
+
+	<!-- Modal Information -->
+	<div class="modal fade" id="profilinformation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel" data-fr="Modifier mes informations" data-en="Update information">Update Information</h4>
+		      </div>
+		      <div class="modal-body">
+		       		<div class="form-group">
+				    	<label for="exampleInputEmail1" data-fr="Nom" data-en="Name">Name</label>
+				    	<input type="email" class="form-control updatename" id="exampleInputEmail1" placeholder="Mathieu Juglet" value="">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="exampleInputEmail1">Email</label>
+				    	<input type="email" class="form-control updateemail" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
+				  	</div>
+				  	<div class="row">
+					  	<div class="form-group col-xs-7">
+					    	<label for="exampleInputEmail1" data-fr="Position" data-en="Location">Location</label>
+					    	<input type="email" class="form-control inputprofillocation updatelocation" id="exampleInputEmail1" placeholder="Vélizy villacoublay" value="">
+					  	</div>
+					 	<button type="submit" class="btn btn-primary col-xs-4 buttonprofillocation" style="margin-top:24px" data-fr="Géolocaliser" data-en="geolocate">add auto</button>
+					</div>
+					<button type="button" class="btn btn-default btn-block updatedata" data-fr="Mettre a jour" data-en="Update">Update</button>
+		      </div>
+		    </div>
+		</div>
+	</div>
+
+	<!-- Modal Connexion -->
+	<div class="modal fade" id="accountconnexion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel" data-fr="Connexion" data-en="Connexion">Connexion</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<form action="" class="formConnexion">
+			       		<div class="form-group">
+			       		
+					    	<label for="exampleInputEmail1" data-fr="Adresse email" data-en="email adress">Adresse email</label>
+					    	<input type="text" class="form-control email" id="exampleInputEmail1" placeholder="mathieu.juglet@gmail.com" value="">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="exampleInputEmail1" data-fr="Mot de passe" data-en="Password">Password</label>
+					    	<input type="text" class="form-control password" id="exampleInputEmail1" value="">
+					  	</div>
+						<button type="submit" class="btn btn-default btn-block" data-fr="Se connecter" data-en="Connexion">Connexion</button>
+					</form>
+		      </div>
+		    </div>
+		</div>
+	</div>
+
+	<!-- Modal Share -->
+	<div class="modal fade" id="Sharecontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel" data-fr="Partager a un contact" data-en="Share with a contact">Share with a contact</h4>
+		      </div>
+		      <div class="modal-body">
+		       		
+		      		<ul>
+		      			
+
+		      		</ul>
+
+		      </div>
+		    </div>
+		</div>
+	</div>
+
+	<audio id="violoncelle">
+		<source src="sound/violoncelle.mp3" type="audio/mpeg" />
+	</audio>
+	<audio id="guitare">
+		<source src="sound/guitare.mp3" type="audio/mpeg" />
+	</audio>
+	<audio id="harmonica">
+		<source src="sound/harmonica.mp3" type="audio/mpeg" />
+	</audio>
+
+  	<!-- SCRIPT -->
+  	<script src="cordova.js"></script>
+	
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/velocity.js"></script>
+	<script src="js/camera.js"></script>
+	<script src="js/geolocation.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/ibeacon.js"></script>
+	<script src="js/translation.js"></script>
+	
+	<script src="js/bootloader.js"></script>
+</body>  
+</html>

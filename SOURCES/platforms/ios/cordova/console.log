@@ -1,0 +1,549 @@
+2015-05-06 19:06:36.244 schonck[5429:356216] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:06:36.247 schonck[5429:356216] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:06:36.261 schonck[5429:356216] Unlimited access to network resources
+2015-05-06 19:06:36.268 schonck[5429:356216] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:06:36.590 schonck[5429:356216] [CDVTimer][file] 11.262000ms
+2015-05-06 19:06:36.734 schonck[5429:356216] [CDVTimer][splashscreen] 144.100010ms
+2015-05-06 19:06:36.739 schonck[5429:356216] [CDVTimer][statusbar] 4.181981ms
+2015-05-06 19:06:36.739 schonck[5429:356216] [CDVTimer][TotalPluginStartup] 160.463035ms
+2015-05-06 19:06:36.807 schonck[5429:356216] Resetting plugins due to page load.
+2015-05-06 19:06:36.993 schonck[5429:356216] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/4BCA1AD8-FAA2-4167-866F-D38F3F4E94EE/schonck.app/www/index.html
+2015-05-06 19:06:37.108 schonck[5429:356338] [DOM] registerDelegateCallbackId()
+2015-05-06 19:06:37.108 schonck[5429:356216] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:06:37.108 schonck[5429:356335] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:06:37.108 schonck[5429:356335] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:06:37.108 schonck[5429:356216] didChangeAuthorizationStatus
+2015-05-06 19:06:37.108 schonck[5429:356335] Invalid callback id received by sendPluginResult
+2015-05-06 19:06:37.108 schonck[5429:356216] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:06:37.108 schonck[5429:356216] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:06:37.108 schonck[5429:356216] Invalid callback id received by sendPluginResult
+2015-05-06 19:06:37.109 schonck[5429:356340] Registering delegate callback ID: LocationManager65909809
+2015-05-06 19:06:37.117 schonck[5429:356340] [DOM] _onDelegateCallback() null
+2015-05-06 19:06:37.162 schonck[5429:356216] log1
+2015-05-06 19:06:37.171 schonck[5429:356216] idfa class missing, won't collect idfa
+2015-05-06 19:06:52.281 schonck[5429:356216] Resetting plugins due to page load.
+2015-05-06 19:06:52.378 schonck[5429:356216] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/4BCA1AD8-FAA2-4167-866F-D38F3F4E94EE/schonck.app/www/index.html
+2015-05-06 19:06:52.510 schonck[5429:356814] [DOM] registerDelegateCallbackId()
+2015-05-06 19:06:52.512 schonck[5429:356814] Registering delegate callback ID: LocationManager436729941
+2015-05-06 19:06:52.521 schonck[5429:356814] [DOM] _onDelegateCallback() null
+2015-05-06 19:06:52.554 schonck[5429:356216] log1
+2015-05-06 19:06:52.569 schonck[5429:356216] THREAD WARNING: ['Globalization'] took '14.836914' ms. Plugin should use a background thread.
+2015-05-06 19:08:13.308 schonck[5705:358487] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:08:13.309 schonck[5705:358487] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:08:13.311 schonck[5705:358487] Unlimited access to network resources
+2015-05-06 19:08:13.313 schonck[5705:358487] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:08:13.401 schonck[5705:358487] [CDVTimer][file] 1.634002ms
+2015-05-06 19:08:13.412 schonck[5705:358487] [CDVTimer][splashscreen] 11.238992ms
+2015-05-06 19:08:13.418 schonck[5705:358487] [CDVTimer][statusbar] 5.339980ms
+2015-05-06 19:08:13.418 schonck[5705:358487] [CDVTimer][TotalPluginStartup] 18.654048ms
+2015-05-06 19:08:13.490 schonck[5705:358487] Resetting plugins due to page load.
+2015-05-06 19:08:13.579 schonck[5705:358487] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/index.html
+2015-05-06 19:08:13.681 schonck[5705:358495] [DOM] registerDelegateCallbackId()
+2015-05-06 19:08:13.681 schonck[5705:358487] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:08:13.681 schonck[5705:358516] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:08:13.681 schonck[5705:358516] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:08:13.681 schonck[5705:358516] Invalid callback id received by sendPluginResult
+2015-05-06 19:08:13.683 schonck[5705:358487] didChangeAuthorizationStatus
+2015-05-06 19:08:13.683 schonck[5705:358487] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:08:13.683 schonck[5705:358487] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:08:13.683 schonck[5705:358487] Invalid callback id received by sendPluginResult
+2015-05-06 19:08:13.692 schonck[5705:358495] Registering delegate callback ID: LocationManager1224991224
+2015-05-06 19:08:13.695 schonck[5705:358495] [DOM] _onDelegateCallback() null
+2015-05-06 19:08:13.721 schonck[5705:358487] log1
+2015-05-06 19:08:13.730 schonck[5705:358487] idfa class missing, won't collect idfa
+2015-05-06 19:08:21.233 schonck[5705:358487] Resetting plugins due to page load.
+2015-05-06 19:08:21.328 schonck[5705:358487] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/index.html
+2015-05-06 19:08:21.460 schonck[5705:358501] [DOM] registerDelegateCallbackId()
+2015-05-06 19:08:21.462 schonck[5705:358501] Registering delegate callback ID: LocationManager69521339
+2015-05-06 19:08:21.473 schonck[5705:358501] [DOM] _onDelegateCallback() null
+2015-05-06 19:08:21.507 schonck[5705:358487] log1
+2015-05-06 19:08:21.521 schonck[5705:358487] THREAD WARNING: ['Globalization'] took '14.872070' ms. Plugin should use a background thread.
+2015-05-06 19:08:48.465 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:48.497 schonck[5705:358497] 19:08:48.497 WARNING:   139: The default input device's sample rate was changed.
+2015-05-06 19:08:48.506 schonck[5705:359063] 19:08:48.506 WARNING:   256: Audio device's sample rate changed. You may need to restart the simulator.
+2015-05-06 19:08:48.538 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:48.579 schonck[5705:358487] THREAD WARNING: ['Media'] took '114.718750' ms. Plugin should use a background thread.
+2015-05-06 19:08:49.049 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:49.055 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:49.597 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:50.071 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:50.151 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:50.156 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:50.168 schonck[5705:358487] THREAD WARNING: ['Media'] took '17.801025' ms. Plugin should use a background thread.
+2015-05-06 19:08:51.181 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:51.773 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:51.780 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:51.789 schonck[5705:358487] THREAD WARNING: ['Media'] took '15.780273' ms. Plugin should use a background thread.
+2015-05-06 19:08:52.802 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:53.522 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:53.529 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:53.538 schonck[5705:358487] THREAD WARNING: ['Media'] took '16.175049' ms. Plugin should use a background thread.
+2015-05-06 19:08:54.551 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:54.602 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:54.608 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:54.616 schonck[5705:358487] THREAD WARNING: ['Media'] took '13.995850' ms. Plugin should use a background thread.
+2015-05-06 19:08:55.613 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:55.619 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:55.640 schonck[5705:358487] THREAD WARNING: ['Media'] took '27.426025' ms. Plugin should use a background thread.
+2015-05-06 19:08:55.640 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:56.415 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:56.421 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:56.429 schonck[5705:358487] THREAD WARNING: ['Media'] took '13.927002' ms. Plugin should use a background thread.
+2015-05-06 19:08:56.653 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:57.442 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:59.234 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:08:59.240 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:08:59.245 schonck[5705:358487] THREAD WARNING: ['Media'] took '11.293701' ms. Plugin should use a background thread.
+2015-05-06 19:09:00.155 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:09:00.161 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:09:00.258 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:09:01.175 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:09:03.513 schonck[5705:358487] Found resource '/Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/FC16B517-AA3E-4296-9CB5-5E465AE72852/schonck.app/www/sound/violoncelle2.mp3' in the web folder.
+2015-05-06 19:09:03.519 schonck[5705:358487] Playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:09:04.535 schonck[5705:358487] Finished playing audio sample 'sound/violoncelle2.mp3'
+2015-05-06 19:15:40.965 schonck[6032:366848] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:15:40.966 schonck[6032:366848] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:15:40.968 schonck[6032:366848] Unlimited access to network resources
+2015-05-06 19:15:40.971 schonck[6032:366848] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:15:41.058 schonck[6032:366848] [CDVTimer][file] 2.498031ms
+2015-05-06 19:15:41.069 schonck[6032:366848] [CDVTimer][splashscreen] 9.983957ms
+2015-05-06 19:15:41.073 schonck[6032:366848] [CDVTimer][statusbar] 4.034996ms
+2015-05-06 19:15:41.073 schonck[6032:366848] [CDVTimer][TotalPluginStartup] 17.220974ms
+2015-05-06 19:15:41.148 schonck[6032:366848] Resetting plugins due to page load.
+2015-05-06 19:15:41.267 schonck[6032:366848] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/00871104-A493-4736-BCB8-7E42554EB57D/schonck.app/www/index.html
+2015-05-06 19:15:41.343 schonck[6032:366858] [DOM] registerDelegateCallbackId()
+2015-05-06 19:15:41.344 schonck[6032:366848] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:15:41.344 schonck[6032:366860] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:15:41.344 schonck[6032:366860] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:15:41.344 schonck[6032:366860] Invalid callback id received by sendPluginResult
+2015-05-06 19:15:41.345 schonck[6032:366848] didChangeAuthorizationStatus
+2015-05-06 19:15:41.345 schonck[6032:366848] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:15:41.346 schonck[6032:366848] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:15:41.346 schonck[6032:366848] Invalid callback id received by sendPluginResult
+2015-05-06 19:15:41.357 schonck[6032:366855] Registering delegate callback ID: LocationManager819171813
+2015-05-06 19:15:41.360 schonck[6032:366860] [DOM] _onDelegateCallback() null
+2015-05-06 19:15:41.374 schonck[6032:366848] log1
+2015-05-06 19:15:41.382 schonck[6032:366848] idfa class missing, won't collect idfa
+2015-05-06 19:15:53.222 schonck[6032:366848] THREAD WARNING: ['Compass'] took '11557.749023' ms. Plugin should use a background thread.
+2015-05-06 19:15:53.223 schonck[6032:366863] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-06 19:15:55.372 schonck[6299:367461] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:15:55.373 schonck[6299:367461] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:15:55.375 schonck[6299:367461] Unlimited access to network resources
+2015-05-06 19:15:55.377 schonck[6299:367461] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:15:55.457 schonck[6299:367461] [CDVTimer][file] 1.833975ms
+2015-05-06 19:15:55.468 schonck[6299:367461] [CDVTimer][splashscreen] 10.981023ms
+2015-05-06 19:15:55.472 schonck[6299:367461] [CDVTimer][statusbar] 4.041970ms
+2015-05-06 19:15:55.472 schonck[6299:367461] [CDVTimer][TotalPluginStartup] 17.224014ms
+2015-05-06 19:15:55.545 schonck[6299:367461] Resetting plugins due to page load.
+2015-05-06 19:15:55.639 schonck[6299:367461] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/B9C20C19-C915-4577-AE89-5C2EB63076B8/schonck.app/www/index.html
+2015-05-06 19:15:55.736 schonck[6299:367464] [DOM] registerDelegateCallbackId()
+2015-05-06 19:15:55.736 schonck[6299:367461] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:15:55.736 schonck[6299:367472] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:15:55.736 schonck[6299:367472] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:15:55.737 schonck[6299:367472] Invalid callback id received by sendPluginResult
+2015-05-06 19:15:55.738 schonck[6299:367461] didChangeAuthorizationStatus
+2015-05-06 19:15:55.738 schonck[6299:367461] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:15:55.738 schonck[6299:367461] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:15:55.738 schonck[6299:367461] Invalid callback id received by sendPluginResult
+2015-05-06 19:15:55.748 schonck[6299:367464] Registering delegate callback ID: LocationManager218528878
+2015-05-06 19:15:55.750 schonck[6299:367466] [DOM] _onDelegateCallback() null
+2015-05-06 19:15:55.762 schonck[6299:367461] log1
+2015-05-06 19:15:55.769 schonck[6299:367461] idfa class missing, won't collect idfa
+2015-05-06 19:16:14.443 schonck[6299:367461] THREAD WARNING: ['Compass'] took '18389.298828' ms. Plugin should use a background thread.
+2015-05-06 19:16:14.446 schonck[6299:367470] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-06 19:16:14.481 schonck[6299:367461] Resetting plugins due to page load.
+2015-05-06 19:16:14.483 schonck[6299:367461] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-05-06 19:16:14.483 schonck[6299:367461] Resetting plugins due to page load.
+2015-05-06 19:16:14.587 schonck[6299:367461] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/B9C20C19-C915-4577-AE89-5C2EB63076B8/schonck.app/www/index.html
+2015-05-06 19:16:14.727 schonck[6299:367464] [DOM] registerDelegateCallbackId()
+2015-05-06 19:16:14.729 schonck[6299:367464] Registering delegate callback ID: LocationManager194507839
+2015-05-06 19:16:14.739 schonck[6299:367464] [DOM] _onDelegateCallback() null
+2015-05-06 19:16:14.770 schonck[6299:367461] log1
+2015-05-06 19:16:14.783 schonck[6299:367461] THREAD WARNING: ['Globalization'] took '13.593750' ms. Plugin should use a background thread.
+2015-05-06 19:16:17.036 schonck[6299:367461] THREAD WARNING: ['Compass'] took '1977.717773' ms. Plugin should use a background thread.
+2015-05-06 19:16:18.597 schonck[6299:367461] THREAD WARNING: ['Compass'] took '1265.525879' ms. Plugin should use a background thread.
+2015-05-06 19:16:30.354 schonck[6299:367461] THREAD WARNING: ['Compass'] took '11458.714111' ms. Plugin should use a background thread.
+2015-05-06 19:16:30.356 schonck[6299:367470] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-06 19:16:32.240 schonck[6299:367461] THREAD WARNING: ['Compass'] took '1588.486084' ms. Plugin should use a background thread.
+2015-05-06 19:16:59.421 schonck[6570:368580] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:16:59.422 schonck[6570:368580] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:16:59.424 schonck[6570:368580] Unlimited access to network resources
+2015-05-06 19:16:59.427 schonck[6570:368580] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:16:59.511 schonck[6570:368580] [CDVTimer][file] 1.576006ms
+2015-05-06 19:16:59.523 schonck[6570:368580] [CDVTimer][splashscreen] 11.870027ms
+2015-05-06 19:16:59.528 schonck[6570:368580] [CDVTimer][statusbar] 4.882991ms
+2015-05-06 19:16:59.528 schonck[6570:368580] [CDVTimer][TotalPluginStartup] 18.688977ms
+2015-05-06 19:16:59.596 schonck[6570:368580] Resetting plugins due to page load.
+2015-05-06 19:16:59.673 schonck[6570:368580] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/88A636AC-EFFA-4FF6-BFE1-78342AD39DB5/schonck.app/www/index.html
+2015-05-06 19:16:59.763 schonck[6570:368609] [DOM] registerDelegateCallbackId()
+2015-05-06 19:16:59.763 schonck[6570:368580] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:16:59.763 schonck[6570:368588] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:16:59.764 schonck[6570:368588] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:16:59.764 schonck[6570:368588] Invalid callback id received by sendPluginResult
+2015-05-06 19:16:59.765 schonck[6570:368588] Registering delegate callback ID: LocationManager672254433
+2015-05-06 19:16:59.765 schonck[6570:368580] didChangeAuthorizationStatus
+2015-05-06 19:16:59.765 schonck[6570:368580] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:16:59.766 schonck[6570:368580] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:16:59.766 schonck[6570:368609] [DOM] _onDelegateCallback() null
+2015-05-06 19:16:59.767 schonck[6570:368609] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 19:16:59.767 schonck[6570:368588] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 19:16:59.792 schonck[6570:368580] log1
+2015-05-06 19:16:59.799 schonck[6570:368580] idfa class missing, won't collect idfa
+2015-05-06 19:17:09.343 schonck[6570:368580] THREAD WARNING: ['Compass'] took '9261.083984' ms. Plugin should use a background thread.
+2015-05-06 19:17:09.383 schonck[6570:368580] Resetting plugins due to page load.
+2015-05-06 19:17:09.465 schonck[6570:368580] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/88A636AC-EFFA-4FF6-BFE1-78342AD39DB5/schonck.app/www/index.html
+2015-05-06 19:17:09.604 schonck[6570:368609] [DOM] registerDelegateCallbackId()
+2015-05-06 19:17:09.606 schonck[6570:368609] Registering delegate callback ID: LocationManager1547000277
+2015-05-06 19:17:09.615 schonck[6570:368609] [DOM] _onDelegateCallback() null
+2015-05-06 19:17:09.649 schonck[6570:368580] log1
+2015-05-06 19:17:09.666 schonck[6570:368580] THREAD WARNING: ['Globalization'] took '17.150879' ms. Plugin should use a background thread.
+2015-05-06 19:28:36.056 schonck[6570:368580] THREAD WARNING: ['Compass'] took '686116.709961' ms. Plugin should use a background thread.
+2015-05-06 19:28:36.058 schonck[6570:368595] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-06 19:28:36.060 schonck[6570:368580] Resetting plugins due to page load.
+2015-05-06 19:28:39.058 schonck[6570:368580] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/88A636AC-EFFA-4FF6-BFE1-78342AD39DB5/schonck.app/www/index.html
+2015-05-06 19:28:39.130 schonck[6570:376048] [DOM] registerDelegateCallbackId()
+2015-05-06 19:28:39.131 schonck[6570:376048] Registering delegate callback ID: LocationManager1429984176
+2015-05-06 19:28:39.139 schonck[6570:376048] [DOM] _onDelegateCallback() null
+2015-05-06 19:28:39.147 schonck[6570:368580] log1
+2015-05-06 19:55:52.383 schonck[7340:392975] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 19:55:52.384 schonck[7340:392975] Multi-tasking -> Device: YES, App: YES
+2015-05-06 19:55:52.385 schonck[7340:392975] Unlimited access to network resources
+2015-05-06 19:55:52.388 schonck[7340:392975] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 19:55:52.467 schonck[7340:392975] [CDVTimer][file] 2.510011ms
+2015-05-06 19:55:52.481 schonck[7340:392975] [CDVTimer][splashscreen] 13.502002ms
+2015-05-06 19:55:52.486 schonck[7340:392975] [CDVTimer][statusbar] 4.635990ms
+2015-05-06 19:55:52.486 schonck[7340:392975] [CDVTimer][TotalPluginStartup] 21.158993ms
+2015-05-06 19:55:52.513 schonck[7340:392975] Resetting plugins due to page load.
+2015-05-06 19:55:52.753 schonck[7340:392975] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/67EF6E16-D5C4-44EB-BB89-A261B6318093/schonck.app/www/index.html
+2015-05-06 19:55:52.833 schonck[7340:393018] [DOM] registerDelegateCallbackId()
+2015-05-06 19:55:52.833 schonck[7340:392975] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 19:55:52.833 schonck[7340:392988] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 19:55:52.833 schonck[7340:392988] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 19:55:52.834 schonck[7340:392988] Invalid callback id received by sendPluginResult
+2015-05-06 19:55:52.835 schonck[7340:392988] Registering delegate callback ID: LocationManager133275757
+2015-05-06 19:55:52.836 schonck[7340:392975] didChangeAuthorizationStatus
+2015-05-06 19:55:52.836 schonck[7340:392975] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 19:55:52.836 schonck[7340:392975] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 19:55:52.844 schonck[7340:392988] [DOM] _onDelegateCallback() null
+2015-05-06 19:55:52.845 schonck[7340:393018] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 19:55:52.844 schonck[7340:392988] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 19:55:52.845 schonck[7340:393032] [DOM] DEFAULT didChangeAuthorizationStatus()
+2015-05-06 19:55:52.866 schonck[7340:392975] log1
+2015-05-06 19:55:52.875 schonck[7340:392975] idfa class missing, won't collect idfa
+2015-05-06 22:10:39.094 schonck[11770:505210] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 22:10:39.094 schonck[11770:505210] Multi-tasking -> Device: YES, App: YES
+2015-05-06 22:10:39.096 schonck[11770:505210] Unlimited access to network resources
+2015-05-06 22:10:39.098 schonck[11770:505210] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 22:10:39.159 schonck[11770:505210] [CDVTimer][file] 2.595961ms
+2015-05-06 22:10:39.175 schonck[11770:505210] [CDVTimer][splashscreen] 16.490996ms
+2015-05-06 22:10:39.179 schonck[11770:505210] [CDVTimer][statusbar] 4.006028ms
+2015-05-06 22:10:39.179 schonck[11770:505210] [CDVTimer][TotalPluginStartup] 23.497999ms
+2015-05-06 22:10:39.237 schonck[11770:505210] Resetting plugins due to page load.
+2015-05-06 22:10:39.449 schonck[11770:505210] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/14D3D104-85BB-480E-BA08-46254AD8E73A/schonck.app/www/index.html
+2015-05-06 22:10:39.528 schonck[11770:505221] [DOM] registerDelegateCallbackId()
+2015-05-06 22:10:39.528 schonck[11770:505210] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 22:10:39.528 schonck[11770:505217] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 22:10:39.528 schonck[11770:505217] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 22:10:39.528 schonck[11770:505217] Invalid callback id received by sendPluginResult
+2015-05-06 22:10:39.529 schonck[11770:505210] didChangeAuthorizationStatus
+2015-05-06 22:10:39.529 schonck[11770:505221] Registering delegate callback ID: LocationManager918300816
+2015-05-06 22:10:39.529 schonck[11770:505210] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 22:10:39.530 schonck[11770:505210] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 22:10:39.530 schonck[11770:505210] Invalid callback id received by sendPluginResult
+2015-05-06 22:10:39.530 schonck[11770:505217] [DOM] _onDelegateCallback() null
+2015-05-06 22:10:39.552 schonck[11770:505210] log1
+2015-05-06 22:10:39.559 schonck[11770:505210] idfa class missing, won't collect idfa
+2015-05-06 22:11:02.875 schonck[12041:506115] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 22:11:02.876 schonck[12041:506115] Multi-tasking -> Device: YES, App: YES
+2015-05-06 22:11:02.879 schonck[12041:506115] Unlimited access to network resources
+2015-05-06 22:11:02.881 schonck[12041:506115] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 22:11:02.967 schonck[12041:506115] [CDVTimer][file] 2.566040ms
+2015-05-06 22:11:02.979 schonck[12041:506115] [CDVTimer][splashscreen] 11.693001ms
+2015-05-06 22:11:02.983 schonck[12041:506115] [CDVTimer][statusbar] 4.061043ms
+2015-05-06 22:11:02.983 schonck[12041:506115] [CDVTimer][TotalPluginStartup] 18.821955ms
+2015-05-06 22:11:03.049 schonck[12041:506115] Resetting plugins due to page load.
+2015-05-06 22:11:03.223 schonck[12041:506115] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/8D9ED944-D086-4BE3-9BB7-B93762A7B41D/schonck.app/www/index.html
+2015-05-06 22:11:03.325 schonck[12041:506124] [DOM] registerDelegateCallbackId()
+2015-05-06 22:11:03.325 schonck[12041:506115] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 22:11:03.325 schonck[12041:506129] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 22:11:03.325 schonck[12041:506129] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 22:11:03.325 schonck[12041:506129] Invalid callback id received by sendPluginResult
+2015-05-06 22:11:03.327 schonck[12041:506129] Registering delegate callback ID: LocationManager1043562892
+2015-05-06 22:11:03.327 schonck[12041:506115] didChangeAuthorizationStatus
+2015-05-06 22:11:03.327 schonck[12041:506115] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 22:11:03.327 schonck[12041:506115] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 22:11:03.328 schonck[12041:506124] [DOM] _onDelegateCallback() null
+2015-05-06 22:11:03.328 schonck[12041:506129] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 22:11:03.328 schonck[12041:506124] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 22:11:03.354 schonck[12041:506115] log1
+2015-05-06 22:11:03.362 schonck[12041:506115] idfa class missing, won't collect idfa
+2015-05-06 22:41:26.640 schonck[12465:530440] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 22:41:26.641 schonck[12465:530440] Multi-tasking -> Device: YES, App: YES
+2015-05-06 22:41:26.643 schonck[12465:530440] Unlimited access to network resources
+2015-05-06 22:41:26.645 schonck[12465:530440] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 22:41:26.747 schonck[12465:530440] [CDVTimer][file] 2.129018ms
+2015-05-06 22:41:26.764 schonck[12465:530440] [CDVTimer][splashscreen] 16.797960ms
+2015-05-06 22:41:26.768 schonck[12465:530440] [CDVTimer][statusbar] 4.502952ms
+2015-05-06 22:41:26.768 schonck[12465:530440] [CDVTimer][TotalPluginStartup] 23.886979ms
+2015-05-06 22:41:26.869 schonck[12465:530440] Resetting plugins due to page load.
+2015-05-06 22:41:27.085 schonck[12465:530440] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/AD738D2C-9502-467A-89A4-C65B6481CB9B/schonck.app/www/index.html
+2015-05-06 22:41:27.205 schonck[12465:530485] [DOM] registerDelegateCallbackId()
+2015-05-06 22:41:27.205 schonck[12465:530440] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 22:41:27.205 schonck[12465:530447] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 22:41:27.206 schonck[12465:530447] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 22:41:27.206 schonck[12465:530447] Invalid callback id received by sendPluginResult
+2015-05-06 22:41:27.207 schonck[12465:530440] didChangeAuthorizationStatus
+2015-05-06 22:41:27.207 schonck[12465:530440] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 22:41:27.207 schonck[12465:530440] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 22:41:27.207 schonck[12465:530440] Invalid callback id received by sendPluginResult
+2015-05-06 22:41:27.219 schonck[12465:530447] Registering delegate callback ID: LocationManager1532509347
+2015-05-06 22:41:27.229 schonck[12465:530485] [DOM] _onDelegateCallback() null
+2015-05-06 22:41:27.243 schonck[12465:530440] log1
+2015-05-06 22:41:27.252 schonck[12465:530440] idfa class missing, won't collect idfa
+2015-05-06 22:56:39.662 schonck[12923:540853] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 22:56:39.663 schonck[12923:540853] Multi-tasking -> Device: YES, App: YES
+2015-05-06 22:56:39.664 schonck[12923:540853] Unlimited access to network resources
+2015-05-06 22:56:39.667 schonck[12923:540853] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 22:56:39.739 schonck[12923:540853] [CDVTimer][file] 3.018975ms
+2015-05-06 22:56:39.752 schonck[12923:540853] [CDVTimer][splashscreen] 12.901008ms
+2015-05-06 22:56:39.757 schonck[12923:540853] [CDVTimer][statusbar] 4.494965ms
+2015-05-06 22:56:39.757 schonck[12923:540853] [CDVTimer][TotalPluginStartup] 21.140993ms
+2015-05-06 22:56:39.827 schonck[12923:540853] Resetting plugins due to page load.
+2015-05-06 22:56:40.067 schonck[12923:540853] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/EC7EABAD-B589-45C0-918C-1DFF807C303A/schonck.app/www/index.html
+2015-05-06 22:56:40.166 schonck[12923:540863] [DOM] registerDelegateCallbackId()
+2015-05-06 22:56:40.167 schonck[12923:540853] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 22:56:40.167 schonck[12923:540877] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 22:56:40.167 schonck[12923:540877] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 22:56:40.167 schonck[12923:540877] Invalid callback id received by sendPluginResult
+2015-05-06 22:56:40.168 schonck[12923:540856] Registering delegate callback ID: LocationManager70768111
+2015-05-06 22:56:40.168 schonck[12923:540853] didChangeAuthorizationStatus
+2015-05-06 22:56:40.169 schonck[12923:540853] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 22:56:40.169 schonck[12923:540853] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 22:56:40.169 schonck[12923:540877] [DOM] _onDelegateCallback() null
+2015-05-06 22:56:40.170 schonck[12923:540877] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 22:56:40.170 schonck[12923:540856] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 22:56:40.198 schonck[12923:540853] log1
+2015-05-06 22:56:40.208 schonck[12923:540853] idfa class missing, won't collect idfa
+2015-05-06 23:27:03.028 schonck[13839:560202] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 23:27:03.028 schonck[13839:560202] Multi-tasking -> Device: YES, App: YES
+2015-05-06 23:27:03.030 schonck[13839:560202] Unlimited access to network resources
+2015-05-06 23:27:03.034 schonck[13839:560202] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 23:27:03.128 schonck[13839:560202] [CDVTimer][file] 2.435982ms
+2015-05-06 23:27:03.141 schonck[13839:560202] [CDVTimer][splashscreen] 12.166977ms
+2015-05-06 23:27:03.145 schonck[13839:560202] [CDVTimer][statusbar] 4.234970ms
+2015-05-06 23:27:03.145 schonck[13839:560202] [CDVTimer][TotalPluginStartup] 19.609034ms
+2015-05-06 23:27:03.234 schonck[13839:560202] Resetting plugins due to page load.
+2015-05-06 23:27:03.344 schonck[13839:560202] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/487DE764-7C07-4177-B50B-0FB93F1E51E1/schonck.app/www/index.html
+2015-05-06 23:27:03.464 schonck[13839:560204] [DOM] registerDelegateCallbackId()
+2015-05-06 23:27:03.464 schonck[13839:560202] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 23:27:03.464 schonck[13839:560206] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 23:27:03.464 schonck[13839:560206] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 23:27:03.464 schonck[13839:560206] Invalid callback id received by sendPluginResult
+2015-05-06 23:27:03.466 schonck[13839:560206] Registering delegate callback ID: LocationManager197232113
+2015-05-06 23:27:03.466 schonck[13839:560206] [DOM] _onDelegateCallback() null
+2015-05-06 23:27:03.467 schonck[13839:560202] didChangeAuthorizationStatus
+2015-05-06 23:27:03.467 schonck[13839:560202] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 23:27:03.467 schonck[13839:560202] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 23:27:03.468 schonck[13839:560204] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 23:27:03.468 schonck[13839:560206] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 23:27:03.500 schonck[13839:560202] log1
+2015-05-06 23:27:03.510 schonck[13839:560202] idfa class missing, won't collect idfa
+2015-05-06 23:27:53.390 schonck[14154:561793] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 23:27:53.391 schonck[14154:561793] Multi-tasking -> Device: YES, App: YES
+2015-05-06 23:27:53.393 schonck[14154:561793] Unlimited access to network resources
+2015-05-06 23:27:53.395 schonck[14154:561793] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 23:27:53.487 schonck[14154:561793] [CDVTimer][file] 1.915991ms
+2015-05-06 23:27:53.501 schonck[14154:561793] [CDVTimer][splashscreen] 13.906002ms
+2015-05-06 23:27:53.506 schonck[14154:561793] [CDVTimer][statusbar] 5.261958ms
+2015-05-06 23:27:53.507 schonck[14154:561793] [CDVTimer][TotalPluginStartup] 21.669030ms
+2015-05-06 23:27:53.769 schonck[14154:561793] Resetting plugins due to page load.
+2015-05-06 23:27:53.885 schonck[14154:561793] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/292876D6-F235-4F99-AA0C-9EE4806B9BD4/schonck.app/www/index.html
+2015-05-06 23:27:54.033 schonck[14154:561798] [DOM] registerDelegateCallbackId()
+2015-05-06 23:27:54.033 schonck[14154:561793] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 23:27:54.034 schonck[14154:561796] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 23:27:54.034 schonck[14154:561793] didChangeAuthorizationStatus
+2015-05-06 23:27:54.034 schonck[14154:561796] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 23:27:54.034 schonck[14154:561793] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 23:27:54.034 schonck[14154:561796] Invalid callback id received by sendPluginResult
+2015-05-06 23:27:54.034 schonck[14154:561793] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 23:27:54.034 schonck[14154:561793] Invalid callback id received by sendPluginResult
+2015-05-06 23:27:54.047 schonck[14154:561796] Registering delegate callback ID: LocationManager1068774959
+2015-05-06 23:27:54.050 schonck[14154:561808] [DOM] _onDelegateCallback() null
+2015-05-06 23:27:54.065 schonck[14154:561793] log1
+2015-05-06 23:27:54.073 schonck[14154:561793] idfa class missing, won't collect idfa
+2015-05-06 23:30:07.366 schonck[14799:564525] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 23:30:07.366 schonck[14799:564525] Multi-tasking -> Device: YES, App: YES
+2015-05-06 23:30:07.368 schonck[14799:564525] Unlimited access to network resources
+2015-05-06 23:30:07.370 schonck[14799:564525] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 23:30:07.432 schonck[14799:564525] [CDVTimer][file] 1.550019ms
+2015-05-06 23:30:07.442 schonck[14799:564525] [CDVTimer][splashscreen] 10.077953ms
+2015-05-06 23:30:07.446 schonck[14799:564525] [CDVTimer][statusbar] 4.451036ms
+2015-05-06 23:30:07.446 schonck[14799:564525] [CDVTimer][TotalPluginStartup] 16.486049ms
+2015-05-06 23:30:07.588 schonck[14799:564525] Resetting plugins due to page load.
+2015-05-06 23:30:08.725 schonck[14799:564525] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/EE28C669-017F-44D3-A627-C23F25FA57BA/schonck.app/www/index.html
+2015-05-06 23:30:08.807 schonck[14799:564528] [DOM] registerDelegateCallbackId()
+2015-05-06 23:30:08.808 schonck[14799:564525] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 23:30:08.808 schonck[14799:564533] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 23:30:08.808 schonck[14799:564533] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 23:30:08.808 schonck[14799:564533] Invalid callback id received by sendPluginResult
+2015-05-06 23:30:08.810 schonck[14799:564525] didChangeAuthorizationStatus
+2015-05-06 23:30:08.811 schonck[14799:564525] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 23:30:08.811 schonck[14799:564525] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 23:30:08.811 schonck[14799:564525] Invalid callback id received by sendPluginResult
+2015-05-06 23:30:08.820 schonck[14799:564528] Registering delegate callback ID: LocationManager1148935910
+2015-05-06 23:30:08.822 schonck[14799:564531] [DOM] _onDelegateCallback() null
+2015-05-06 23:30:08.834 schonck[14799:564525] log1
+2015-05-06 23:30:08.841 schonck[14799:564525] idfa class missing, won't collect idfa
+2015-05-06 23:31:18.317 schonck[15075:566145] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 23:31:18.317 schonck[15075:566145] Multi-tasking -> Device: YES, App: YES
+2015-05-06 23:31:18.318 schonck[15075:566145] Unlimited access to network resources
+2015-05-06 23:31:18.320 schonck[15075:566145] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 23:31:18.383 schonck[15075:566145] [CDVTimer][file] 1.531005ms
+2015-05-06 23:31:18.394 schonck[15075:566145] [CDVTimer][splashscreen] 10.882020ms
+2015-05-06 23:31:18.398 schonck[15075:566145] [CDVTimer][statusbar] 3.907025ms
+2015-05-06 23:31:18.399 schonck[15075:566145] [CDVTimer][TotalPluginStartup] 16.673982ms
+2015-05-06 23:31:18.549 schonck[15075:566145] Resetting plugins due to page load.
+2015-05-06 23:31:18.723 schonck[15075:566145] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/EDAD7015-8FCA-4886-841D-B9D034808212/schonck.app/www/index.html
+2015-05-06 23:31:18.812 schonck[15075:566150] [DOM] registerDelegateCallbackId()
+2015-05-06 23:31:18.812 schonck[15075:566145] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 23:31:18.812 schonck[15075:566168] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 23:31:18.812 schonck[15075:566168] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 23:31:18.812 schonck[15075:566168] Invalid callback id received by sendPluginResult
+2015-05-06 23:31:18.813 schonck[15075:566168] Registering delegate callback ID: LocationManager1415703952
+2015-05-06 23:31:18.814 schonck[15075:566145] didChangeAuthorizationStatus
+2015-05-06 23:31:18.814 schonck[15075:566145] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 23:31:18.814 schonck[15075:566145] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 23:31:18.820 schonck[15075:566150] [DOM] _onDelegateCallback() null
+2015-05-06 23:31:18.820 schonck[15075:566150] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-05-06 23:31:18.820 schonck[15075:566153] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-05-06 23:31:18.820 schonck[15075:566148] [DOM] DEFAULT didChangeAuthorizationStatus()
+2015-05-06 23:31:18.835 schonck[15075:566145] log1
+2015-05-06 23:31:18.841 schonck[15075:566145] idfa class missing, won't collect idfa
+2015-05-06 23:32:00.058 schonck[15352:567073] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 23:32:00.059 schonck[15352:567073] Multi-tasking -> Device: YES, App: YES
+2015-05-06 23:32:00.060 schonck[15352:567073] Unlimited access to network resources
+2015-05-06 23:32:00.062 schonck[15352:567073] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-06 23:32:00.163 schonck[15352:567073] [CDVTimer][file] 1.585007ms
+2015-05-06 23:32:00.178 schonck[15352:567073] [CDVTimer][splashscreen] 15.266001ms
+2015-05-06 23:32:00.184 schonck[15352:567073] [CDVTimer][statusbar] 5.430043ms
+2015-05-06 23:32:00.184 schonck[15352:567073] [CDVTimer][TotalPluginStartup] 22.638023ms
+2015-05-06 23:32:00.385 schonck[15352:567073] Resetting plugins due to page load.
+2015-05-06 23:32:00.564 schonck[15352:567073] Finished load of: file:///Users/mathieujuglet/Library/Developer/CoreSimulator/Devices/F85CD121-E22A-403C-A99D-105EC8CB3085/data/Containers/Bundle/Application/052D2C07-6C83-4E2C-B96C-A8FD12448CCC/schonck.app/www/index.html
+2015-05-06 23:32:00.687 schonck[15352:567084] [DOM] registerDelegateCallbackId()
+2015-05-06 23:32:00.688 schonck[15352:567073] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-05-06 23:32:00.688 schonck[15352:567100] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-05-06 23:32:00.688 schonck[15352:567100] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-05-06 23:32:00.688 schonck[15352:567100] Invalid callback id received by sendPluginResult
+2015-05-06 23:32:00.689 schonck[15352:567073] didChangeAuthorizationStatus
+2015-05-06 23:32:00.690 schonck[15352:567073] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-05-06 23:32:00.690 schonck[15352:567073] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-05-06 23:32:00.690 schonck[15352:567073] Invalid callback id received by sendPluginResult
+2015-05-06 23:32:00.699 schonck[15352:567084] Registering delegate callback ID: LocationManager460819483
+2015-05-06 23:32:00.702 schonck[15352:567101] [DOM] _onDelegateCallback() null
+2015-05-06 23:32:00.716 schonck[15352:567073] log1
+2015-05-06 23:32:00.723 schonck[15352:567073] idfa class missing, won't collect idfa
